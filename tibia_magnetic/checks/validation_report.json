@@ -1,0 +1,857 @@
+{
+  "geometry": [
+    {
+      "part": "01_Нижняя_секция",
+      "finite_vertices": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "nondegenerate_faces": true,
+      "triangles": 1856,
+      "volume_mm3": 90980.91223846102,
+      "extents_mm": [
+        61.48868179321289,
+        47.93536949157715,
+        85.0
+      ],
+      "status": "pass"
+    },
+    {
+      "part": "02_Средняя_половина_A",
+      "finite_vertices": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "nondegenerate_faces": true,
+      "triangles": 3534,
+      "volume_mm3": 24439.840111465892,
+      "extents_mm": [
+        28.199054718017578,
+        18.61098861694336,
+        188.0
+      ],
+      "status": "pass"
+    },
+    {
+      "part": "03_Средняя_половина_B",
+      "finite_vertices": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "nondegenerate_faces": true,
+      "triangles": 3912,
+      "volume_mm3": 32360.067797432872,
+      "extents_mm": [
+        30.01376724243164,
+        19.89069366455078,
+        188.0
+      ],
+      "status": "pass"
+    },
+    {
+      "part": "04_Верхняя_секция",
+      "finite_vertices": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "nondegenerate_faces": true,
+      "triangles": 3338,
+      "volume_mm3": 243501.69507043157,
+      "extents_mm": [
+        87.9300537109375,
+        77.38275146484375,
+        127.0
+      ],
+      "status": "pass"
+    }
+  ],
+  "pockets": [
+    {
+      "part": "01_Нижняя_секция",
+      "interface": "Нижний торец",
+      "center_mm": [
+        0,
+        -5.0,
+        85.0
+      ],
+      "axis": 2,
+      "direction": -1,
+      "clear_bore_to_3mm": true,
+      "material_at_3_4mm": true,
+      "radius_2_95_clear": true,
+      "material_at_radius_3_25": true,
+      "status": "pass"
+    },
+    {
+      "part": "02_Средняя_половина_A",
+      "interface": "Средняя, нижний торец",
+      "center_mm": [
+        0,
+        -5.0,
+        85.0
+      ],
+      "axis": 2,
+      "direction": 1,
+      "clear_bore_to_3mm": true,
+      "material_at_3_4mm": true,
+      "radius_2_95_clear": true,
+      "material_at_radius_3_25": true,
+      "status": "pass"
+    },
+    {
+      "part": "02_Средняя_половина_A",
+      "interface": "Средняя, верхний торец",
+      "center_mm": [
+        0,
+        -5.0,
+        273.0
+      ],
+      "axis": 2,
+      "direction": -1,
+      "clear_bore_to_3mm": true,
+      "material_at_3_4mm": true,
+      "radius_2_95_clear": true,
+      "material_at_radius_3_25": true,
+      "status": "pass"
+    },
+    {
+      "part": "04_Верхняя_секция",
+      "interface": "Верхний торец",
+      "center_mm": [
+        0,
+        -5.0,
+        273.0
+      ],
+      "axis": 2,
+      "direction": 1,
+      "clear_bore_to_3mm": true,
+      "material_at_3_4mm": true,
+      "radius_2_95_clear": true,
+      "material_at_radius_3_25": true,
+      "status": "pass"
+    },
+    {
+      "part": "01_Нижняя_секция",
+      "interface": "Нижний торец",
+      "center_mm": [
+        0,
+        7.0,
+        85.0
+      ],
+      "axis": 2,
+      "direction": -1,
+      "clear_bore_to_3mm": true,
+      "material_at_3_4mm": true,
+      "radius_2_95_clear": true,
+      "material_at_radius_3_25": true,
+      "status": "pass"
+    },
+    {
+      "part": "03_Средняя_половина_B",
+      "interface": "Средняя, нижний торец",
+      "center_mm": [
+        0,
+        7.0,
+        85.0
+      ],
+      "axis": 2,
+      "direction": 1,
+      "clear_bore_to_3mm": true,
+      "material_at_3_4mm": true,
+      "radius_2_95_clear": true,
+      "material_at_radius_3_25": true,
+      "status": "pass"
+    },
+    {
+      "part": "03_Средняя_половина_B",
+      "interface": "Средняя, верхний торец",
+      "center_mm": [
+        0,
+        7.0,
+        273.0
+      ],
+      "axis": 2,
+      "direction": -1,
+      "clear_bore_to_3mm": true,
+      "material_at_3_4mm": true,
+      "radius_2_95_clear": true,
+      "material_at_radius_3_25": true,
+      "status": "pass"
+    },
+    {
+      "part": "04_Верхняя_секция",
+      "interface": "Верхний торец",
+      "center_mm": [
+        0,
+        7.0,
+        273.0
+      ],
+      "axis": 2,
+      "direction": 1,
+      "clear_bore_to_3mm": true,
+      "material_at_3_4mm": true,
+      "radius_2_95_clear": true,
+      "material_at_radius_3_25": true,
+      "status": "pass"
+    },
+    {
+      "part": "02_Средняя_половина_A",
+      "interface": "Продольный стык",
+      "center_mm": [
+        -7.7234292624111855,
+        0,
+        125.0
+      ],
+      "axis": 1,
+      "direction": -1,
+      "clear_bore_to_3mm": true,
+      "material_at_3_4mm": true,
+      "radius_2_95_clear": true,
+      "material_at_radius_3_25": true,
+      "status": "pass"
+    },
+    {
+      "part": "03_Средняя_половина_B",
+      "interface": "Продольный стык",
+      "center_mm": [
+        -7.7234292624111855,
+        0,
+        125.0
+      ],
+      "axis": 1,
+      "direction": 1,
+      "clear_bore_to_3mm": true,
+      "material_at_3_4mm": true,
+      "radius_2_95_clear": true,
+      "material_at_radius_3_25": true,
+      "status": "pass"
+    },
+    {
+      "part": "02_Средняя_половина_A",
+      "interface": "Продольный стык",
+      "center_mm": [
+        4.429062393927984,
+        0,
+        125.0
+      ],
+      "axis": 1,
+      "direction": -1,
+      "clear_bore_to_3mm": true,
+      "material_at_3_4mm": true,
+      "radius_2_95_clear": true,
+      "material_at_radius_3_25": true,
+      "status": "pass"
+    },
+    {
+      "part": "03_Средняя_половина_B",
+      "interface": "Продольный стык",
+      "center_mm": [
+        4.429062393927984,
+        0,
+        125.0
+      ],
+      "axis": 1,
+      "direction": 1,
+      "clear_bore_to_3mm": true,
+      "material_at_3_4mm": true,
+      "radius_2_95_clear": true,
+      "material_at_radius_3_25": true,
+      "status": "pass"
+    },
+    {
+      "part": "02_Средняя_половина_A",
+      "interface": "Продольный стык",
+      "center_mm": [
+        -9.439717090301373,
+        0,
+        233.0
+      ],
+      "axis": 1,
+      "direction": -1,
+      "clear_bore_to_3mm": true,
+      "material_at_3_4mm": true,
+      "radius_2_95_clear": true,
+      "material_at_radius_3_25": true,
+      "status": "pass"
+    },
+    {
+      "part": "03_Средняя_половина_B",
+      "interface": "Продольный стык",
+      "center_mm": [
+        -9.439717090301373,
+        0,
+        233.0
+      ],
+      "axis": 1,
+      "direction": 1,
+      "clear_bore_to_3mm": true,
+      "material_at_3_4mm": true,
+      "radius_2_95_clear": true,
+      "material_at_radius_3_25": true,
+      "status": "pass"
+    },
+    {
+      "part": "02_Средняя_половина_A",
+      "interface": "Продольный стык",
+      "center_mm": [
+        4.816919809380858,
+        0,
+        233.0
+      ],
+      "axis": 1,
+      "direction": -1,
+      "clear_bore_to_3mm": true,
+      "material_at_3_4mm": true,
+      "radius_2_95_clear": true,
+      "material_at_radius_3_25": true,
+      "status": "pass"
+    },
+    {
+      "part": "03_Средняя_половина_B",
+      "interface": "Продольный стык",
+      "center_mm": [
+        4.816919809380858,
+        0,
+        233.0
+      ],
+      "axis": 1,
+      "direction": 1,
+      "clear_bore_to_3mm": true,
+      "material_at_3_4mm": true,
+      "radius_2_95_clear": true,
+      "material_at_radius_3_25": true,
+      "status": "pass"
+    }
+  ],
+  "pocket_containment": [
+    {
+      "part": "01_Нижняя_секция",
+      "interface": "Нижний торец",
+      "center_mm": [
+        0,
+        -5.0,
+        85.0
+      ],
+      "sampled_points": 39,
+      "outside_original_surface_points": 0,
+      "status": "pass"
+    },
+    {
+      "part": "02_Средняя_половина_A",
+      "interface": "Средняя, нижний торец",
+      "center_mm": [
+        0,
+        -5.0,
+        85.0
+      ],
+      "sampled_points": 39,
+      "outside_original_surface_points": 0,
+      "status": "pass"
+    },
+    {
+      "part": "02_Средняя_половина_A",
+      "interface": "Средняя, верхний торец",
+      "center_mm": [
+        0,
+        -5.0,
+        273.0
+      ],
+      "sampled_points": 39,
+      "outside_original_surface_points": 0,
+      "status": "pass"
+    },
+    {
+      "part": "04_Верхняя_секция",
+      "interface": "Верхний торец",
+      "center_mm": [
+        0,
+        -5.0,
+        273.0
+      ],
+      "sampled_points": 39,
+      "outside_original_surface_points": 0,
+      "status": "pass"
+    },
+    {
+      "part": "01_Нижняя_секция",
+      "interface": "Нижний торец",
+      "center_mm": [
+        0,
+        7.0,
+        85.0
+      ],
+      "sampled_points": 39,
+      "outside_original_surface_points": 0,
+      "status": "pass"
+    },
+    {
+      "part": "03_Средняя_половина_B",
+      "interface": "Средняя, нижний торец",
+      "center_mm": [
+        0,
+        7.0,
+        85.0
+      ],
+      "sampled_points": 39,
+      "outside_original_surface_points": 0,
+      "status": "pass"
+    },
+    {
+      "part": "03_Средняя_половина_B",
+      "interface": "Средняя, верхний торец",
+      "center_mm": [
+        0,
+        7.0,
+        273.0
+      ],
+      "sampled_points": 39,
+      "outside_original_surface_points": 0,
+      "status": "pass"
+    },
+    {
+      "part": "04_Верхняя_секция",
+      "interface": "Верхний торец",
+      "center_mm": [
+        0,
+        7.0,
+        273.0
+      ],
+      "sampled_points": 39,
+      "outside_original_surface_points": 0,
+      "status": "pass"
+    },
+    {
+      "part": "02_Средняя_половина_A",
+      "interface": "Продольный стык",
+      "center_mm": [
+        -7.7234292624111855,
+        0,
+        125.0
+      ],
+      "sampled_points": 39,
+      "outside_original_surface_points": 0,
+      "status": "pass"
+    },
+    {
+      "part": "03_Средняя_половина_B",
+      "interface": "Продольный стык",
+      "center_mm": [
+        -7.7234292624111855,
+        0,
+        125.0
+      ],
+      "sampled_points": 39,
+      "outside_original_surface_points": 0,
+      "status": "pass"
+    },
+    {
+      "part": "02_Средняя_половина_A",
+      "interface": "Продольный стык",
+      "center_mm": [
+        4.429062393927984,
+        0,
+        125.0
+      ],
+      "sampled_points": 39,
+      "outside_original_surface_points": 0,
+      "status": "pass"
+    },
+    {
+      "part": "03_Средняя_половина_B",
+      "interface": "Продольный стык",
+      "center_mm": [
+        4.429062393927984,
+        0,
+        125.0
+      ],
+      "sampled_points": 39,
+      "outside_original_surface_points": 0,
+      "status": "pass"
+    },
+    {
+      "part": "02_Средняя_половина_A",
+      "interface": "Продольный стык",
+      "center_mm": [
+        -9.439717090301373,
+        0,
+        233.0
+      ],
+      "sampled_points": 39,
+      "outside_original_surface_points": 0,
+      "status": "pass"
+    },
+    {
+      "part": "03_Средняя_половина_B",
+      "interface": "Продольный стык",
+      "center_mm": [
+        -9.439717090301373,
+        0,
+        233.0
+      ],
+      "sampled_points": 39,
+      "outside_original_surface_points": 0,
+      "status": "pass"
+    },
+    {
+      "part": "02_Средняя_половина_A",
+      "interface": "Продольный стык",
+      "center_mm": [
+        4.816919809380858,
+        0,
+        233.0
+      ],
+      "sampled_points": 39,
+      "outside_original_surface_points": 0,
+      "status": "pass"
+    },
+    {
+      "part": "03_Средняя_половина_B",
+      "interface": "Продольный стык",
+      "center_mm": [
+        4.816919809380858,
+        0,
+        233.0
+      ],
+      "sampled_points": 39,
+      "outside_original_surface_points": 0,
+      "status": "pass"
+    }
+  ],
+  "assembled_intersections": [
+    {
+      "a": "01_Нижняя_секция",
+      "b": "02_Средняя_половина_A",
+      "intersection_volume_mm3": 0.0,
+      "status": "pass"
+    },
+    {
+      "a": "01_Нижняя_секция",
+      "b": "03_Средняя_половина_B",
+      "intersection_volume_mm3": 0.0,
+      "status": "pass"
+    },
+    {
+      "a": "01_Нижняя_секция",
+      "b": "04_Верхняя_секция",
+      "intersection_volume_mm3": 0.0,
+      "status": "pass"
+    },
+    {
+      "a": "02_Средняя_половина_A",
+      "b": "03_Средняя_половина_B",
+      "intersection_volume_mm3": 0.0,
+      "status": "pass"
+    },
+    {
+      "a": "02_Средняя_половина_A",
+      "b": "04_Верхняя_секция",
+      "intersection_volume_mm3": 0.0,
+      "status": "pass"
+    },
+    {
+      "a": "03_Средняя_половина_B",
+      "b": "04_Верхняя_секция",
+      "intersection_volume_mm3": 0.0,
+      "status": "pass"
+    }
+  ],
+  "assembly_paths": [
+    {
+      "step": "1. Соединить половины A и B",
+      "moving_part": "03_Средняя_половина_B",
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "range_mm": [
+        40,
+        0.2
+      ],
+      "samples": [
+        {
+          "distance_mm": 40,
+          "collisions": []
+        },
+        {
+          "distance_mm": 30,
+          "collisions": []
+        },
+        {
+          "distance_mm": 20,
+          "collisions": []
+        },
+        {
+          "distance_mm": 15,
+          "collisions": []
+        },
+        {
+          "distance_mm": 10,
+          "collisions": []
+        },
+        {
+          "distance_mm": 7.5,
+          "collisions": []
+        },
+        {
+          "distance_mm": 5,
+          "collisions": []
+        },
+        {
+          "distance_mm": 3,
+          "collisions": []
+        },
+        {
+          "distance_mm": 2,
+          "collisions": []
+        },
+        {
+          "distance_mm": 1,
+          "collisions": []
+        },
+        {
+          "distance_mm": 0.5,
+          "collisions": []
+        },
+        {
+          "distance_mm": 0.2,
+          "collisions": []
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "step": "2. Установить нижнюю секцию",
+      "moving_part": "01_Нижняя_секция",
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "range_mm": [
+        40,
+        0.2
+      ],
+      "samples": [
+        {
+          "distance_mm": 40,
+          "collisions": []
+        },
+        {
+          "distance_mm": 30,
+          "collisions": []
+        },
+        {
+          "distance_mm": 20,
+          "collisions": []
+        },
+        {
+          "distance_mm": 15,
+          "collisions": []
+        },
+        {
+          "distance_mm": 10,
+          "collisions": []
+        },
+        {
+          "distance_mm": 7.5,
+          "collisions": []
+        },
+        {
+          "distance_mm": 5,
+          "collisions": []
+        },
+        {
+          "distance_mm": 3,
+          "collisions": []
+        },
+        {
+          "distance_mm": 2,
+          "collisions": []
+        },
+        {
+          "distance_mm": 1,
+          "collisions": []
+        },
+        {
+          "distance_mm": 0.5,
+          "collisions": []
+        },
+        {
+          "distance_mm": 0.2,
+          "collisions": []
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "step": "3. Установить верхнюю секцию",
+      "moving_part": "04_Верхняя_секция",
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "range_mm": [
+        40,
+        0.2
+      ],
+      "samples": [
+        {
+          "distance_mm": 40,
+          "collisions": []
+        },
+        {
+          "distance_mm": 30,
+          "collisions": []
+        },
+        {
+          "distance_mm": 20,
+          "collisions": []
+        },
+        {
+          "distance_mm": 15,
+          "collisions": []
+        },
+        {
+          "distance_mm": 10,
+          "collisions": []
+        },
+        {
+          "distance_mm": 7.5,
+          "collisions": []
+        },
+        {
+          "distance_mm": 5,
+          "collisions": []
+        },
+        {
+          "distance_mm": 3,
+          "collisions": []
+        },
+        {
+          "distance_mm": 2,
+          "collisions": []
+        },
+        {
+          "distance_mm": 1,
+          "collisions": []
+        },
+        {
+          "distance_mm": 0.5,
+          "collisions": []
+        },
+        {
+          "distance_mm": 0.2,
+          "collisions": []
+        }
+      ],
+      "status": "pass"
+    }
+  ],
+  "hollow": {
+    "z_110.0": {
+      "clear": true,
+      "status": "pass"
+    },
+    "z_152.0": {
+      "clear": true,
+      "status": "pass"
+    },
+    "z_248.0": {
+      "clear": true,
+      "status": "pass"
+    },
+    "end_wall_86.5": {
+      "material_present": true,
+      "status": "pass"
+    },
+    "end_wall_271.5": {
+      "material_present": true,
+      "status": "pass"
+    }
+  },
+  "formats": {
+    "3mf": {
+      "zip_crc_error": null,
+      "required_content_types": true,
+      "relationships": true,
+      "unit": "millimeter",
+      "object_names": [
+        "01_Нижняя_секция",
+        "02_Средняя_половина_A",
+        "03_Средняя_половина_B",
+        "04_Верхняя_секция"
+      ],
+      "build_items": 4,
+      "reopened_geometry": 4,
+      "extents_mm": [
+        87.93005207931324,
+        77.382753638848,
+        400.0
+      ],
+      "status": "pass"
+    },
+    "glb": {
+      "valid_header": true,
+      "version": 2,
+      "declared_length_matches": true,
+      "scene_count": 1,
+      "mesh_count": 4,
+      "material_count": 4,
+      "nodes": [
+        {
+          "name": "01_Нижняя_секция",
+          "mesh": 0,
+          "primitives": 1
+        },
+        {
+          "name": "02_Средняя_половина_A",
+          "mesh": 1,
+          "primitives": 1
+        },
+        {
+          "name": "03_Средняя_половина_B",
+          "mesh": 2,
+          "primitives": 1
+        },
+        {
+          "name": "04_Верхняя_секция",
+          "mesh": 3,
+          "primitives": 1
+        }
+      ],
+      "triangles": 12640,
+      "external_buffers": [],
+      "asset_extras": {
+        "up_axis": "y",
+        "front_axis": "z",
+        "physical_units": "m"
+      },
+      "extents_m": [
+        0.08793004974722862,
+        0.4000000059604645,
+        0.0773827526718378
+      ],
+      "file_bytes": 279108,
+      "status": "pass"
+    }
+  },
+  "overall": {
+    "bounds_mm": [
+      [
+        -38.95652770996094,
+        -20.08349609375,
+        0.0
+      ],
+      [
+        48.97352600097656,
+        57.29925537109375,
+        400.0
+      ]
+    ],
+    "extents_mm": [
+      87.9300537109375,
+      77.38275146484375,
+      400.0
+    ],
+    "length_z_mm": 400.0,
+    "status": "pass"
+  }
+}

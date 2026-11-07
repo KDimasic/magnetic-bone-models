@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Кости на магнитах — интерактивная сборка</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23293536'/%3E%3Cpath d='M25 13c-9-7-17 5-9 11l7 5v13l-7 5c-8 6 0 18 9 11 3 7 13 7 16 0 9 7 17-5 9-11l-7-5V29l7-5c8-6 0-18-9-11-3-7-13-7-16 0z' fill='%23eee7d9'/%3E%3C/svg%3E">
+<style>
+:root{
+  --paper:oklch(0.965 0.012 85); --paper-2:oklch(0.925 0.016 85);
+  --ink:oklch(0.25 0.025 175); --muted:oklch(0.43 0.025 175);
+  --line:oklch(0.82 0.02 110); --accent:oklch(0.57 0.13 42);
+  --accent-dark:oklch(0.43 0.12 42); --canvas:oklch(0.25 0.025 195);
+  --focus:oklch(0.68 0.15 65); --radius:14px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font:16px/1.6 "Trebuchet MS",Arial,sans-serif;color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased}
+button,a{font:inherit} button{cursor:pointer} a{color:inherit}
+:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+.shell{max-width:1440px;margin:0 auto;padding:28px 32px 40px}
+header{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:24px}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-dark);font-weight:700;margin-bottom:6px}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(30px,4vw,52px);font-weight:500;line-height:1.08;letter-spacing:-.025em;max-width:780px}
+.header-meta{text-align:right;flex:0 0 auto;color:var(--muted);font-size:14px}
+.header-meta strong{display:block;font-family:Georgia,serif;font-size:28px;font-weight:500;color:var(--ink)}
+.model-switch{display:flex;gap:8px;margin-bottom:16px;padding:5px;border:1px solid var(--line);border-radius:12px;width:fit-content;background:var(--paper-2)}
+.model-choice{min-height:44px;border:1px solid transparent;border-radius:8px;padding:9px 15px;background:transparent;color:var(--muted);font-size:14px;font-weight:700;transition:background .16s,color .16s}
+.model-choice:hover{color:var(--ink)}.model-choice.active{background:var(--ink);color:var(--paper)}
+.workspace{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:20px;align-items:stretch}
+.viewer-panel{min-width:0;background:var(--canvas);border-radius:var(--radius);overflow:hidden;position:relative;min-height:650px;display:flex;flex-direction:column}
+#viewport{position:relative;flex:1;min-height:480px;outline:none}
+#viewport canvas{display:block;width:100%;height:100%;touch-action:none}
+.viewer-top{position:absolute;top:18px;left:18px;right:18px;display:flex;justify-content:space-between;gap:12px;pointer-events:none;z-index:2}
+.viewer-label{background:oklch(0.19 0.02 195 / .82);color:oklch(0.94 0.015 85);padding:7px 11px;border-radius:7px;font-size:13px;backdrop-filter:blur(8px)}
+#part-label{max-width:65%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.loading{position:absolute;inset:0;display:grid;place-items:center;background:var(--canvas);color:oklch(0.92 0.015 85);z-index:3;text-align:center;padding:24px;transition:opacity .2s ease-out}
+.loading.hidden{opacity:0;pointer-events:none}
+.loading-inner{max-width:340px}.bone-mark{width:34px;height:120px;margin:0 auto 18px;border:2px solid oklch(0.78 0.03 85);border-radius:45% 45% 35% 35%;position:relative}
+.bone-mark:before,.bone-mark:after{content:"";position:absolute;left:-11px;width:52px;height:22px;border:2px solid oklch(0.78 0.03 85);border-radius:50%}
+.bone-mark:before{top:-8px}.bone-mark:after{bottom:-8px}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;padding:14px;background:oklch(0.21 0.025 195);border-top:1px solid oklch(0.34 0.025 195)}
+.tool{min-height:44px;border:1px solid oklch(0.43 0.025 195);background:transparent;color:oklch(0.9 0.015 85);border-radius:8px;padding:9px 13px;transition:background .16s,color .16s,border-color .16s}
+.tool:hover{background:oklch(0.31 0.025 195)}.tool.active{background:var(--paper);color:var(--ink);border-color:var(--paper)}
+.tool.primary{background:var(--accent);border-color:var(--accent);color:oklch(0.98 0.01 85)}.tool.primary:hover{background:oklch(0.63 0.13 42)}
+.sidebar{background:var(--paper-2);border:1px solid var(--line);border-radius:var(--radius);padding:22px;display:flex;flex-direction:column;gap:22px}
+.specs{display:grid;grid-template-columns:1fr 1fr;gap:14px 12px}.spec{border-bottom:1px solid var(--line);padding-bottom:10px}
+.spec dt{font-size:12px;color:var(--muted);letter-spacing:.04em}.spec dd{font-family:Georgia,serif;font-size:25px;line-height:1.25}
+h2{font-family:Georgia,serif;font-size:23px;font-weight:500;line-height:1.2;margin-bottom:10px}
+h3{font-size:14px;text-transform:uppercase;letter-spacing:.07em;margin-bottom:8px}
+.steps{list-style:none;display:grid;gap:8px;counter-reset:step}.steps li{counter-increment:step;display:grid;grid-template-columns:28px 1fr;gap:8px;font-size:14px;line-height:1.45}.steps li:before{content:counter(step);width:25px;height:25px;border:1px solid var(--accent);color:var(--accent-dark);border-radius:50%;display:grid;place-items:center;font-size:12px}
+.note{font-size:13px;color:var(--muted);line-height:1.55}.note strong{color:var(--ink)}
+.downloads{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto}.download{min-height:44px;display:inline-flex;align-items:center;justify-content:center;padding:9px 13px;border:1px solid var(--ink);border-radius:8px;text-decoration:none;font-size:14px;transition:background .16s,color .16s}.download:hover{background:var(--ink);color:var(--paper)}
+.details{margin-top:24px;display:grid;grid-template-columns:1fr 1fr;gap:20px}.detail-block{border-top:1px solid var(--line);padding-top:18px;max-width:75ch}.detail-block p{font-size:14px;color:var(--muted)}.detail-block a{color:var(--accent-dark);text-underline-offset:3px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:980px){.workspace{grid-template-columns:1fr}.viewer-panel{min-height:580px}.sidebar{display:grid;grid-template-columns:1fr 1fr}.specs{grid-column:1/-1}.downloads{margin-top:0}}
+@media(max-width:600px){.shell{padding:20px 14px 28px}header{align-items:flex-start;flex-direction:column}.header-meta{text-align:left}.model-switch{width:100%}.model-choice{flex:1;padding:9px 8px;font-size:13px}.viewer-panel{min-height:520px;border-radius:10px}#viewport{min-height:390px}.sidebar{display:flex;padding:18px}.details{grid-template-columns:1fr}.viewer-top{top:12px;left:12px;right:12px}.toolbar{padding:10px}.tool{flex:1 1 auto}.spec dd{font-size:23px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+</style>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"}}</script>
+</head>
+<body>
+<div class="shell">
+<header>
+  <div><div class="eyebrow">Анатомические модели · 1:1</div><h1 id="model-title">Большеберцовая кость на магнитах</h1></div>
+  <div class="header-meta"><strong id="model-length">400 мм</strong>правая кость, 3 секции</div>
+</header>
+<nav class="model-switch" aria-label="Выбор кости">
+  <button class="model-choice active" type="button" data-model="tibia" aria-pressed="true">Большеберцовая · 400 мм</button>
+  <button class="model-choice" type="button" data-model="femur" aria-pressed="false">Бедренная · 450 мм</button>
+</nav>
+<nav class="model-switch version-switch" aria-label="Выбор версии средней секции">
+  <button class="model-choice active" type="button" data-version="20" aria-pressed="true">Середина −20 %</button>
+  <button class="model-choice" type="button" data-version="30" aria-pressed="false">Середина −30 %</button>
+</nav>
+<main>
+<div class="workspace">
+  <section class="viewer-panel" aria-label="Интерактивная 3D-модель">
+    <div id="viewport" tabindex="0" aria-label="3D-модель. Вращение мышью или касанием, масштаб колесом.">
+      <div class="viewer-top"><span class="viewer-label" id="mode-label">Разобранный вид</span><span class="viewer-label" id="part-label">Выберите деталь щелчком</span></div>
+      <div class="loading" id="loading"><div class="loading-inner"><div class="bone-mark" aria-hidden="true"></div><p id="load-text">Загрузка анатомической модели…</p></div></div>
+    </div>
+    <div class="toolbar" aria-label="Управление сборкой">
+      <button class="tool" id="exploded" type="button">Разобрано</button>
+      <button class="tool" data-step="1" type="button">Шаг 1 · половины</button>
+      <button class="tool" data-step="2" type="button">Шаг 2 · низ</button>
+      <button class="tool" data-step="3" type="button">Шаг 3 · верх</button>
+      <button class="tool primary" id="assembled" type="button">Собрано</button>
+      <button class="tool" id="reset-view" type="button">Сбросить ракурс</button>
+    </div>
+  </section>
+  <aside class="sidebar">
+    <dl class="specs"><div class="spec"><dt>Печатные детали</dt><dd>4</dd></div><div class="spec"><dt>Магниты Ø6 × 3 мм</dt><dd id="spec-magnets">16</dd></div><div class="spec"><dt>Средняя секция</dt><dd id="spec-middle">188 мм</dd></div><div class="spec"><dt>Укорочение середины</dt><dd id="spec-version">20 %</dd></div><div class="spec"><dt>Гнёзда</dt><dd>6,2 × 3,2</dd></div><div class="spec"><dt>Треугольники</dt><dd id="spec-triangles">12 640</dd></div></dl>
+    <section><h2>Порядок сборки</h2><ol class="steps"><li>Соедините половины A и B средней полой секции.</li><li>Установите нижнюю секцию снизу вдоль оси кости.</li><li>Установите верхнюю секцию сверху до совмещения контуров.</li></ol></section>
+    <section><h3>Перед печатью</h3><p class="note">3MF содержит собранную компоновку. В слайсере разделите модель на объекты, поверните детали для печати и разместите на столах. Гнёзда рассчитаны на вклейку магнитов; соблюдайте притягивающую полярность каждой пары.</p></section>
+    <p class="note"><strong>Нужен физический тест:</strong> фактическая посадка зависит от материала и калибровки. Цифровые проверки не заменяют пробную печать гнёзда.</p>
+    <div class="downloads"><a class="download" id="download-3mf" href="./assets/tibia_magnetic.3mf" download>Скачать 3MF</a><a class="download" id="download-glb" href="./assets/tibia_magnetic.glb" download>Скачать GLB</a></div>
+  </aside>
+</div>
+<div class="details">
+  <section class="detail-block"><h2>Конструкция</h2><p id="construction-text">Вариант с серединой короче на 20 %. Средняя секция длиной 188 мм полая и разделена продольно на две половины. Восемь пар магнитов: четыре пары между половинами и четыре пары на поперечных стыках. Вокруг гнёзд расположены внутренние усиления.</p></section>
+  <section class="detail-block"><h2>Исходная геометрия</h2><p>Анатомическая основа: BodyParts3D, © DBCLS, лицензия CC BY-SA 2.1 Japan, через <a href="https://github.com/organui/skeleton-3d" target="_blank" rel="noopener">organui/skeleton-3d</a>. <span id="source-text">Изменения для большеберцовой кости: масштаб 400 мм, выравнивание оси, разделение, полость, усиления и магнитные посадки.</span> Производные модели распространяются на условиях той же лицензии.</p></section>
+</div>
+</main>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>

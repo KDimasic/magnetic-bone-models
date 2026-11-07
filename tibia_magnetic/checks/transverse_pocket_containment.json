@@ -1,0 +1,58 @@
+[
+  {
+    "joint": "lower",
+    "y": -5.0,
+    "direction": -1,
+    "outside_samples": 0,
+    "samples": 1568
+  },
+  {
+    "joint": "lower",
+    "y": -5.0,
+    "direction": 1,
+    "outside_samples": 0,
+    "samples": 1568
+  },
+  {
+    "joint": "upper",
+    "y": -5.0,
+    "direction": -1,
+    "outside_samples": 0,
+    "samples": 1568
+  },
+  {
+    "joint": "upper",
+    "y": -5.0,
+    "direction": 1,
+    "outside_samples": 0,
+    "samples": 1568
+  },
+  {
+    "joint": "lower",
+    "y": 7.0,
+    "direction": -1,
+    "outside_samples": 0,
+    "samples": 1568
+  },
+  {
+    "joint": "lower",
+    "y": 7.0,
+    "direction": 1,
+    "outside_samples": 0,
+    "samples": 1568
+  },
+  {
+    "joint": "upper",
+    "y": 7.0,
+    "direction": -1,
+    "outside_samples": 0,
+    "samples": 1568
+  },
+  {
+    "joint": "upper",
+    "y": 7.0,
+    "direction": 1,
+    "outside_samples": 0,
+    "samples": 1568
+  }
+]

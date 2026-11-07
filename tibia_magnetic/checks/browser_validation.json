@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "variant": "middle_minus_20_percent",
+  "cold_start": "pass",
+  "loaded_parts": 4,
+  "middle_section_length_mm": 188,
+  "magnets_total": 16,
+  "longitudinal_magnet_pairs": 4,
+  "triangles_label": "12 640",
+  "assembly_controls": "exploded, steps 1/2/3, assembled, reset camera: pass",
+  "part_selection": "03_Средняя_половина_B selected by canvas click",
+  "downloads": {
+    "3mf": {"status": "pass", "http_status": 200, "bytes": 202512},
+    "glb": {"status": "pass", "http_status": 200, "bytes": 279108}
+  },
+  "version_selector": "20/30 percent switching pass; active state and model-specific labels pass",
+  "desktop": {"viewport_px": [1440, 1100], "complete_exploded_model_visible": true, "screenshot": "preview_desktop_final.png"},
+  "mobile": {"viewport_px": [375, 812], "horizontal_overflow": false, "minimum_button_height_px": 44, "complete_exploded_model_visible": true, "screenshot": "preview_mobile_final.png"},
+  "site_assets_match_final_exports": true,
+  "console_errors": 0
+}

@@ -1,0 +1,4890 @@
+{
+  "dataset": "BodyParts3D",
+  "version": "3.0 (20110915)",
+  "variant": "BodyParts3D_3.0_obj_95 converted to binary STL by the Kevin-Mattheus-Moerman/BodyParts3D mirror",
+  "retrieved": "2026-10-16",
+  "license": "CC-BY-SA-2.1-JP",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "credit": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution-Share Alike 2.1 Japan",
+  "inputs": [
+    {
+      "file": "parts_list_e.txt",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/parts_list_e.txt",
+      "sha256": "824a34ed939a53375037d0d68b88ad2b63b1f0ae15a585632af2a63c2ab2e4af"
+    },
+    {
+      "file": "BP24.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/BP24.stl",
+      "sha256": "20cee8c685e48c0be5dc8a19c7291d226772bd509e9f58c096a52fa08312c6f8"
+    },
+    {
+      "file": "BP28.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/BP28.stl",
+      "sha256": "3830b7572af7fe795f3f80d5e13a8603f6bc2f5bb8d2070d1cbce0855f9fcb64"
+    },
+    {
+      "file": "FMA10014.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA10014.stl",
+      "sha256": "9b44be02a7fc5a136a79d77bbbaa8d7c1642df160b281a8a7220f338db954d2f"
+    },
+    {
+      "file": "FMA10037.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA10037.stl",
+      "sha256": "a7453a5baca48e378e8bdbdfd1cf3733e9a84445f7139e43605b5997f29c7083"
+    },
+    {
+      "file": "FMA10059.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA10059.stl",
+      "sha256": "fbdbd603ced5d3e0cb29597deb56bd2e84788228d1cb2c8b056f9709b23759cd"
+    },
+    {
+      "file": "FMA10081.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA10081.stl",
+      "sha256": "a5c83982e93be05165e2aa51eb2ae9abcd92b6bfbb9abb076bca29aa17ecad74"
+    },
+    {
+      "file": "FMA10458.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA10458.stl",
+      "sha256": "cc345a834d869a0aed2547f71142aeaebba0a71b68f2fee741f4f494dc41a194"
+    },
+    {
+      "file": "FMA12519.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA12519.stl",
+      "sha256": "cc959122b7875a65d78597d89134fdb2f59a7c0f60d2e781c399db4010208f81"
+    },
+    {
+      "file": "FMA12520.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA12520.stl",
+      "sha256": "9e2a940db7b4bf921f97b63ed5aa549f675effe55af2cc81ad8589331309f896"
+    },
+    {
+      "file": "FMA12521.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA12521.stl",
+      "sha256": "1147f621766b9dce37b21a827f552c5669afaaf49531aab8d7b0df6f374233d1"
+    },
+    {
+      "file": "FMA12522.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA12522.stl",
+      "sha256": "34ea19b8f1c42e91c96f1ce19c520c2f72cda372c5373b15f85dc102e8da8208"
+    },
+    {
+      "file": "FMA12523.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA12523.stl",
+      "sha256": "e33ae49024283758ff60e48d14eeacf123fb79c48730e275951222e0fd91739c"
+    },
+    {
+      "file": "FMA12524.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA12524.stl",
+      "sha256": "449c209bd191ce4a0fbd32b422d48d0ab73142427b336dde45688f08f06455c6"
+    },
+    {
+      "file": "FMA12525.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA12525.stl",
+      "sha256": "083c2e5aa6876089f4b9fa43aaa1cb2ce5284ba5b49cb1700b8dbdaca89729b7"
+    },
+    {
+      "file": "FMA13072.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13072.stl",
+      "sha256": "fc7e0f70a87808629ee655a344e986d741c6111d2664f2b245685d523e5e143a"
+    },
+    {
+      "file": "FMA13073.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13073.stl",
+      "sha256": "230f9a1ca9efae14e7223bba05e49b2093a486103a29fe67b7907aba41b8ad28"
+    },
+    {
+      "file": "FMA13074.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13074.stl",
+      "sha256": "8b04d8e2e380daba38d00333658cc0809a0ab8ce8fd7cb7634615628715592fb"
+    },
+    {
+      "file": "FMA13075.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13075.stl",
+      "sha256": "3464b94d03d42e43bf5ba01a741b7677bec8113a8359eb4a2caec960c6cf341c"
+    },
+    {
+      "file": "FMA13076.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13076.stl",
+      "sha256": "244f54f1388b1cb02014a6de9c1b32ef40d398967bc8e17ed56b46c637fe11c1"
+    },
+    {
+      "file": "FMA13322.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13322.stl",
+      "sha256": "f340050375ea4397a85082fb7bd68ea553d52f4718656599804ecf8f4c7768be"
+    },
+    {
+      "file": "FMA13323.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13323.stl",
+      "sha256": "ec68d362926061c62c2b7493fb6554941d78250f27ecdf744375659050bdc7ee"
+    },
+    {
+      "file": "FMA13395.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13395.stl",
+      "sha256": "c0a3afd469db1fec9527bb81ec1f0956876d3d64d3acbf3a083619d4e7ce297b"
+    },
+    {
+      "file": "FMA13396.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13396.stl",
+      "sha256": "104b7749a10794987535c539d6c412b9b9afb3fd1819bdf5911ab1852f07a425"
+    },
+    {
+      "file": "FMA13495.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13495.stl",
+      "sha256": "75c91c3b0930182b006a11a61b90436518113c45ab734c5e560aa821b34f7e22"
+    },
+    {
+      "file": "FMA13500.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13500.stl",
+      "sha256": "9d028ee8a56721a902e1a8d1359318b6a54426e90e35b67178ad7c4bb846b32c"
+    },
+    {
+      "file": "FMA13501.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13501.stl",
+      "sha256": "7ad74d432b393516f1907a7e83c8228bd6df9e3180cfcb6c29861a0f672ae65e"
+    },
+    {
+      "file": "FMA13502.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13502.stl",
+      "sha256": "3a39249a51333c9cdcb3308355b61f32920d542b0a5ff09938c00e97ceff4d47"
+    },
+    {
+      "file": "FMA13503.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13503.stl",
+      "sha256": "ef15f946681466de2638ba724dfacd9d903cdcf1936abeca672753fdc706abc1"
+    },
+    {
+      "file": "FMA13504.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13504.stl",
+      "sha256": "1ca0e40f60dec03ea0571f50b61413d3325cdd40044b1304e54992b1238e0cfb"
+    },
+    {
+      "file": "FMA13505.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13505.stl",
+      "sha256": "ff62cdbcc4d60401c8b610043e546dbac1963ff42dce010089a795a6e67169d5"
+    },
+    {
+      "file": "FMA13506.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13506.stl",
+      "sha256": "5f3a1dd5c642b516f433ead521e4534671e6e698908d3beeccdac132d3c59c8d"
+    },
+    {
+      "file": "FMA13507.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13507.stl",
+      "sha256": "c4ab58c84e74b80d19c93f07cff462a9e266385973733c69471140266d50668f"
+    },
+    {
+      "file": "FMA13508.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13508.stl",
+      "sha256": "6ed3fff864564a73d2f3e9c672a3e31d33f1dbae73bca2d2ce3e77780f798298"
+    },
+    {
+      "file": "FMA13509.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13509.stl",
+      "sha256": "8e30dfa39af40b4d450620922bd6c09eef54084cb4ce62ebe65fd551cd161223"
+    },
+    {
+      "file": "FMA13896.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13896.stl",
+      "sha256": "1e2f0f453149795d909464ed55bb9cb1fbf1584197b98d13048db515eff585e1"
+    },
+    {
+      "file": "FMA13897.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13897.stl",
+      "sha256": "36fe3d9b358511f9afa99bf543cd8532b02afdf019af38697f98d83b6e8c7e13"
+    },
+    {
+      "file": "FMA13898.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13898.stl",
+      "sha256": "601612edf4d3f96974a5014c18dc0f8123a6a415d5aa328ac765b2b9d0562068"
+    },
+    {
+      "file": "FMA13899.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13899.stl",
+      "sha256": "bd80d97a2e7313b74d67e637cf1ae6c08d7f195611fd2d7390144ef66c58b571"
+    },
+    {
+      "file": "FMA13900.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA13900.stl",
+      "sha256": "39f7aff010b15d208949c05c66a1c4c124b88a2a5519604b9939273429462241"
+    },
+    {
+      "file": "FMA16033.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA16033.stl",
+      "sha256": "becd2da29043aa1503353e0b1639c5043ebaba3b0eed4b74575b906bf3b151df"
+    },
+    {
+      "file": "FMA16034.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA16034.stl",
+      "sha256": "3b914501418e4ecf14d29a937cc31efa2f6f44f55e2064d7d1b837beecb840e1"
+    },
+    {
+      "file": "FMA16035.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA16035.stl",
+      "sha256": "e5333841f907f9d2be40e38de5f83a10aa318389e9ddf5ffc2e8ca9d125c95f6"
+    },
+    {
+      "file": "FMA16036.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA16036.stl",
+      "sha256": "865f96b3f3bfed6536808edadd46c7ff742c6ee6e93eb7e8705863643cec7a94"
+    },
+    {
+      "file": "FMA16037.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA16037.stl",
+      "sha256": "5685541c36f639d7764f9ac6c206c31d2ed03b0d2e3dbc751c0ff2e0a91c8ad6"
+    },
+    {
+      "file": "FMA16202.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA16202.stl",
+      "sha256": "d52dac1add057e05699c3c767736ab45c9c426ab0eebd438e20cd4f0768ee3d8"
+    },
+    {
+      "file": "FMA16586.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA16586.stl",
+      "sha256": "8e039b8dc53d82fda8d89045a97f0ee28022f1906b2c285204417859d9027693"
+    },
+    {
+      "file": "FMA16587.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA16587.stl",
+      "sha256": "456552349a088b72f8e1b06660b93e005b7ffcebe713a0e38ea88f806535dbc7"
+    },
+    {
+      "file": "FMA230986.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA230986.stl",
+      "sha256": "b7602b14d0ead2a93c9fdf977e39dbbbe85283e71ecb05326119040b4c0cda1e"
+    },
+    {
+      "file": "FMA230988.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA230988.stl",
+      "sha256": "0d991dce7d639f18c2c0b18db7f11db92c90fbe9eb61f7ddc4aaf0b0591e0892"
+    },
+    {
+      "file": "FMA23130.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA23130.stl",
+      "sha256": "6e26ad2b9794b136000abe2cc0b54cade989b943214e2149732cc2db2e337dce"
+    },
+    {
+      "file": "FMA23131.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA23131.stl",
+      "sha256": "a0650a72c481093ee8c3b1fe7cf8ad97b2d63875685e1acf608dec7a5e031748"
+    },
+    {
+      "file": "FMA23464.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA23464.stl",
+      "sha256": "23eed49ade9f558406782b47decee325d12ee9e1d5ef661a051a0516a142dfa3"
+    },
+    {
+      "file": "FMA23465.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA23465.stl",
+      "sha256": "1a09c41034b916d138696db3266bf66f159f3770f9446f45a9a198db4486ae07"
+    },
+    {
+      "file": "FMA23467.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA23467.stl",
+      "sha256": "c6074d69a2ccbcef6db2fb8bf758b44a5f6438b035da3399d6efb41b9d759a03"
+    },
+    {
+      "file": "FMA23468.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA23468.stl",
+      "sha256": "1284c72ce602b533b97cfb24fa73a72342cc049ebf6a6f8e709b686cdb828ed6"
+    },
+    {
+      "file": "FMA23725.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA23725.stl",
+      "sha256": "db19cf9ed7c2e97266255c03615458913b8c970d3b6e44eb015a756e4c839e5c"
+    },
+    {
+      "file": "FMA23938.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA23938.stl",
+      "sha256": "45ff711aa61d6df7080eae929bd7c4e477ee1e801cbef07d38bbd20169ac37dc"
+    },
+    {
+      "file": "FMA23940.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA23940.stl",
+      "sha256": "bbe9fedfd2ce0210b7cec0dbdac53f3ec857a96d4340e9926dc7ad3c9a123e82"
+    },
+    {
+      "file": "FMA23942.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA23942.stl",
+      "sha256": "056727b803dc93d354943b43b3839bb45e20628e8d0fa3e1797a45a2b3d744e9"
+    },
+    {
+      "file": "FMA23944.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA23944.stl",
+      "sha256": "b25e93df5087f35d0713d4c8802c85361dec01c9b8b21e896dfb5d0c563894b8"
+    },
+    {
+      "file": "FMA23951.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA23951.stl",
+      "sha256": "52fd4afd10c00f9affa71345e046ca2b5153bacfa46f9f18a4be28fb25ad28e8"
+    },
+    {
+      "file": "FMA23953.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA23953.stl",
+      "sha256": "d71a78b9ca7645866f2a2fca1907317dfc923ddfacb39cda867647f3c267e3ea"
+    },
+    {
+      "file": "FMA23955.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA23955.stl",
+      "sha256": "b283012428c0bce98b50e158560baa94bf86b7b0d000e717ab5a726cdfef66ad"
+    },
+    {
+      "file": "FMA23957.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA23957.stl",
+      "sha256": "8de40a0952bac8c96bc5f84af0c07e163f649453625c88a89eb326a20b61414d"
+    },
+    {
+      "file": "FMA23959.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA23959.stl",
+      "sha256": "6c86d5a47e140b03c9119e733d6ee244b028ec9eb51fd18f2fc4ecf1693164e6"
+    },
+    {
+      "file": "FMA24435.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24435.stl",
+      "sha256": "106d5be5a72229257a9ba41a543a4f42d18eae0513b45e0cd21e8e34d62518b6"
+    },
+    {
+      "file": "FMA24436.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24436.stl",
+      "sha256": "4b90712feb46eabd324c6daf33941c5278ac4148955a4cfa3bedf635c16c6360"
+    },
+    {
+      "file": "FMA24437.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24437.stl",
+      "sha256": "4b35077cf6a5711e1dfdd39a07734d792f0c84ce19b3b8cc942e2ad4838ef8ea"
+    },
+    {
+      "file": "FMA24438.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24438.stl",
+      "sha256": "e8fa993ebe8f750a8539a973e322062aacc1dab363195df349469f0214b33620"
+    },
+    {
+      "file": "FMA24439.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24439.stl",
+      "sha256": "bb2139a7289e784de0ff2db5e1adcc9bd8f5c9c0d4418c0b885d379c97e8e319"
+    },
+    {
+      "file": "FMA24440.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24440.stl",
+      "sha256": "700d0d3efc9e72f4a42177dda7d30daa938df45dc3331d67ce1c5d172dc212d4"
+    },
+    {
+      "file": "FMA24441.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24441.stl",
+      "sha256": "1357a32fd5fc1bb826a122dc67f5c795644516300ce53aae6e9b106da1997a19"
+    },
+    {
+      "file": "FMA24442.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24442.stl",
+      "sha256": "4bed2908c30a0ef0a96268f704a93c404a6fcb053ee845f161a1f1d1b1b80ed9"
+    },
+    {
+      "file": "FMA24443.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24443.stl",
+      "sha256": "c28bb9f078fa7e1f164e549449c8025201a31965c47df0546476c84bb13cffaf"
+    },
+    {
+      "file": "FMA24444.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24444.stl",
+      "sha256": "df95c324cc99d203af2e6e2f047507f22f431f08a7752da3c8284f13b6c5cf7f"
+    },
+    {
+      "file": "FMA24445.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24445.stl",
+      "sha256": "61e40b4ffc000ef88c46d89dd96ed1a33b39541f3eaca9dafbd9759a0b596005"
+    },
+    {
+      "file": "FMA24446.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24446.stl",
+      "sha256": "4f717f2fba9b0cb432da64921d7aeaab2709d97129f39b6538c6ea147e68977d"
+    },
+    {
+      "file": "FMA24447.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24447.stl",
+      "sha256": "12a19ece9ad1da0a26a652164db1f14a93b6832fd59f9a2ac6a4ccc3e04959c5"
+    },
+    {
+      "file": "FMA24448.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24448.stl",
+      "sha256": "28fc3501dc45884187c91738d368194820d0fa8fc5c421cc40525e0c71665e7d"
+    },
+    {
+      "file": "FMA24449.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24449.stl",
+      "sha256": "1cb3e8073124b501718ba75a3517223e213e9e4a2c9f362970eab488edb251e0"
+    },
+    {
+      "file": "FMA24450.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24450.stl",
+      "sha256": "12066c799d3468b5d697a87b6fcf0b35e71c68df5e030053ecdd3d39c2259dec"
+    },
+    {
+      "file": "FMA24451.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24451.stl",
+      "sha256": "29ac3a5b3459b99e81e4da835f4aa909b647f1fbb187423e53aa3e57315253ff"
+    },
+    {
+      "file": "FMA24452.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24452.stl",
+      "sha256": "648823478862684fe11a5c647b02ae7892f634a3d56ff402c71b89e91aed33ec"
+    },
+    {
+      "file": "FMA24453.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24453.stl",
+      "sha256": "3f36cfec72db8d90f89069910d0a1981c0e22b621fd4a7f9c6ad5d1517d2e15e"
+    },
+    {
+      "file": "FMA24454.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24454.stl",
+      "sha256": "bf7d8f3cd4dcc1bef6487551a87d703e5a6b2b5ce856bc8c941edd5e90519bc9"
+    },
+    {
+      "file": "FMA24455.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24455.stl",
+      "sha256": "b44a016e7a7798587ad694405a65275931c904e3cf2d55dd64061cbecbabe2ab"
+    },
+    {
+      "file": "FMA24456.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24456.stl",
+      "sha256": "43d9601a373cf165c2e2bd604638186eda9ccded8f4418cc4aa382183cd5c2c2"
+    },
+    {
+      "file": "FMA24457.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24457.stl",
+      "sha256": "929519bef218c8e53a80751a46fa69ef3ac301b8dd278e3156d7600431618e85"
+    },
+    {
+      "file": "FMA24458.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24458.stl",
+      "sha256": "d67f25f614d977663d141628d01bdefcd55b0624dc90b3aee91dc96abac1942f"
+    },
+    {
+      "file": "FMA24459.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24459.stl",
+      "sha256": "a9aa0c6acb7269cc5a81632a00b06ceb8a33cd2fe078634239da5a7f53ea1602"
+    },
+    {
+      "file": "FMA24460.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24460.stl",
+      "sha256": "7f5f76eb2982eb79bbf51ed626f722abe0d8ceb6e678e433d6732a71187b61db"
+    },
+    {
+      "file": "FMA24461.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24461.stl",
+      "sha256": "5a2321e130f03d57b18e6cc725c9129b8e8398385f06403d8e6228a3f959756a"
+    },
+    {
+      "file": "FMA24462.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24462.stl",
+      "sha256": "9e14b18953b97f741d9ab5a0b05f786d6474cda29a13f06072d188b3ff978291"
+    },
+    {
+      "file": "FMA24463.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24463.stl",
+      "sha256": "520090dc80d537f973295acd49e070f3e094c4d5a48ef708e36a2b98a351d0d7"
+    },
+    {
+      "file": "FMA24464.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24464.stl",
+      "sha256": "5bca353b5b387b71fd6a9b3a588b08303a32cbf924a9c0bc7dc700024808624c"
+    },
+    {
+      "file": "FMA24465.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24465.stl",
+      "sha256": "6fc4f3724073e247f86bf290c6a63aac7baff4e50d3cc28dac77b6bec5ca8444"
+    },
+    {
+      "file": "FMA24466.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24466.stl",
+      "sha256": "3541c67a2864e4e72f56fe2a0c01aaa5d87346e55864e92a0360b32991892fe7"
+    },
+    {
+      "file": "FMA24467.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24467.stl",
+      "sha256": "effb3dcd7e12b211bc21402eec8db023cfb9e05cbd0fe16f210a0c318428ec0d"
+    },
+    {
+      "file": "FMA24468.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24468.stl",
+      "sha256": "f8d96b418c20308dc76868621875a3b029f9d6f072621efa37045dceb2730d5e"
+    },
+    {
+      "file": "FMA24469.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24469.stl",
+      "sha256": "3bd755e9e19febcd8829da0c4b3540606a1ddcda6e1fe63fb148ddf41b342141"
+    },
+    {
+      "file": "FMA24470.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24470.stl",
+      "sha256": "5b9338a2d75680e92abbdc2c539d36ae8dd6f634ea3a026f2a6b33c071fb8e35"
+    },
+    {
+      "file": "FMA24471.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24471.stl",
+      "sha256": "26b62312ffb7f3949d7def62fc31728df6a2daff3fd94919b9511b12eaa80722"
+    },
+    {
+      "file": "FMA24472.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24472.stl",
+      "sha256": "4359ea925a821e599ed8f65bd02f3d6754144718f8724ef155177c38b9b79480"
+    },
+    {
+      "file": "FMA24473.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24473.stl",
+      "sha256": "fd9f01dfbfc98f33296c5b898d9efd018fd866a3543d861b22a9b888af848e07"
+    },
+    {
+      "file": "FMA24474.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24474.stl",
+      "sha256": "a47d03f9a1064bab3db90876e05729924e8c4667c78c1e6373fb42d191cd5563"
+    },
+    {
+      "file": "FMA24475.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24475.stl",
+      "sha256": "31a0bc2939b51bca3edec6704702cebe9f9119f8d7fdbdae67c3417777bbe47e"
+    },
+    {
+      "file": "FMA24477.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24477.stl",
+      "sha256": "93c9c1b04dff757fc170e7e6bdd682f94816579c18c2fe0aa2170371c24635c2"
+    },
+    {
+      "file": "FMA24478.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24478.stl",
+      "sha256": "fa05a615a99e861a3967debaf6357bfc7a24213a26dd1e1970ffcbb1d68b86f7"
+    },
+    {
+      "file": "FMA24480.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24480.stl",
+      "sha256": "972e74cb7f9d774c8dbf477542414acba7d02358fb090726a1ec2ffa57a44357"
+    },
+    {
+      "file": "FMA24481.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24481.stl",
+      "sha256": "d7555b41d63678b6f5d45c4d4487cce3715411c16edab75532f51f48c8a6b39d"
+    },
+    {
+      "file": "FMA24482.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24482.stl",
+      "sha256": "625cc6b5432ab75846d6c63db6f762ebe2e0dfa17eee25066945d88a4e62fa50"
+    },
+    {
+      "file": "FMA24483.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24483.stl",
+      "sha256": "d6eb1d7cbed570f0cb804adbc39db35f78f86cfb53728a2ecff2495268f3f421"
+    },
+    {
+      "file": "FMA24486.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24486.stl",
+      "sha256": "bf7bcd3d2b546a06e5d5be1cec4540a2a228c28501d50397b2f72e5a4e543aab"
+    },
+    {
+      "file": "FMA24487.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24487.stl",
+      "sha256": "cf198828035679bf6cc9b4049c79e16b63e0c60ff807f4edb04c218b86551d89"
+    },
+    {
+      "file": "FMA24497.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24497.stl",
+      "sha256": "77d434acd7647cccecd7aaa0b7cb1e8e2565063e4980d9dc72895b7574db5803"
+    },
+    {
+      "file": "FMA24498.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24498.stl",
+      "sha256": "f69e8c2030d72e872df538829dd304cde20dc85ed180100e755ba18fb04f00bc"
+    },
+    {
+      "file": "FMA24500.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24500.stl",
+      "sha256": "3c1bc357a7327fb28dad1e35c3a1a5d5eceda2201128ef30af3cd16ca3187744"
+    },
+    {
+      "file": "FMA24501.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24501.stl",
+      "sha256": "442afd4ff41c2e42780deef0904120c912034f10a44a91d3d0f8c0058eceef20"
+    },
+    {
+      "file": "FMA24507.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24507.stl",
+      "sha256": "51b6599b27339126c194f753364883bc37c63f43325b04e61733ce9203438ae2"
+    },
+    {
+      "file": "FMA24508.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24508.stl",
+      "sha256": "2ddda1bab95e221d554d72e0dfaf48b86d3a1c3513583131ef84b9b82717a4de"
+    },
+    {
+      "file": "FMA24509.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24509.stl",
+      "sha256": "0f3a7fec8e4a22b416f6c9d2f5c3afdc03ebcfc5439ac3934fe99e63a8dbdfed"
+    },
+    {
+      "file": "FMA24510.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24510.stl",
+      "sha256": "c3b9e6c2fc8091e47d122aa5f1831fbc8bf8016e447d73a11c19a7a233b6d18d"
+    },
+    {
+      "file": "FMA24511.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24511.stl",
+      "sha256": "c2cafb7b5ed9fc111043d833ccf04d98ec05c2266388c7b4a6d62e4ded7b1dcf"
+    },
+    {
+      "file": "FMA24512.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24512.stl",
+      "sha256": "9239942bf7878cd8132c0bc6d88dc0dabeb4d963ffffdaa60010ef9f57e4089d"
+    },
+    {
+      "file": "FMA24513.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24513.stl",
+      "sha256": "247fc29a7b2e30c4bc047cfee0d5bf0d37ffdc0c9f33dcb4decc9e177dacd2ae"
+    },
+    {
+      "file": "FMA24514.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24514.stl",
+      "sha256": "a8241bd9b964423ae6954ba93c942ef73610c9896c5b7484e58bd0a2503b5d8a"
+    },
+    {
+      "file": "FMA24515.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24515.stl",
+      "sha256": "edf22a71963bb66a060acf7d965a94e5c7538784e34639322cfea8ef466d515e"
+    },
+    {
+      "file": "FMA24516.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24516.stl",
+      "sha256": "fc045d11ba300c69c0af23d03a8fef87be3375c3d9ecc28ed1a9cc8d26e916bf"
+    },
+    {
+      "file": "FMA24521.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24521.stl",
+      "sha256": "336488dd6a1eabcecb3e72ec5b021918e1dc8d8cee93f8aa1088a2ee7d8eaf97"
+    },
+    {
+      "file": "FMA24522.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24522.stl",
+      "sha256": "3d13c37191ccd80f3f3cf7599297f97e208fcfe4a2b0dac54bd58779adaf0627"
+    },
+    {
+      "file": "FMA24523.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24523.stl",
+      "sha256": "9b2d4d3fd3523d089f6427d65e8e0373fb1fc53ebebcc4019703bbea364c4404"
+    },
+    {
+      "file": "FMA24524.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24524.stl",
+      "sha256": "a4a1ccd068251de97708368d860b62dfaff4dba59ff3adf46f27b640f4543704"
+    },
+    {
+      "file": "FMA24525.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24525.stl",
+      "sha256": "7cd5fcf314e5f09db3739b2f8246cf93a0b23e3c088cf6c271db4a2f797cae5b"
+    },
+    {
+      "file": "FMA24526.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24526.stl",
+      "sha256": "625c4ec563e2a40206f4860775a8e62d0e2945a57d5aef1e670bc4c7a544daa7"
+    },
+    {
+      "file": "FMA24528.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24528.stl",
+      "sha256": "cef9143d612fbcb1fecced3b21bbe5665271899637535463bbd103521c08e5a6"
+    },
+    {
+      "file": "FMA24529.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA24529.stl",
+      "sha256": "6601d4e85466636c13be7fa291659e675b84a5158383a35fb65a48ff5f4fae6f"
+    },
+    {
+      "file": "FMA25058.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA25058.stl",
+      "sha256": "c84e88ea1eb26f8e726c5a33639e5049b279380a5696559fa233070b0bd49bc3"
+    },
+    {
+      "file": "FMA32634.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32634.stl",
+      "sha256": "837aa1c3a88edeab564b748524e7e4b4097a5a3088e8ea8250ad572b538e941a"
+    },
+    {
+      "file": "FMA32635.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32635.stl",
+      "sha256": "4da8c99e1dc8f405b5ec776a33bf30d70c379f45c8388e6db1ad66d936e0905e"
+    },
+    {
+      "file": "FMA32636.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32636.stl",
+      "sha256": "800eb86838258189babb00a19f1ca59fdcabae9368aceaa294ad0d5bdff14e2e"
+    },
+    {
+      "file": "FMA32637.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32637.stl",
+      "sha256": "277d6f2d4124832bf23414f98bccf378cd47396dc2d8a7c8d1108cef2e2ffd96"
+    },
+    {
+      "file": "FMA32638.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32638.stl",
+      "sha256": "64c39e9073ddaed053b978d539eca2d91ae4827808b38918b67bef58e877d2a0"
+    },
+    {
+      "file": "FMA32639.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32639.stl",
+      "sha256": "4524e26cdf94fcce9860ba4fa6b2c5f1146d896a567da00b4904870805673708"
+    },
+    {
+      "file": "FMA32640.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32640.stl",
+      "sha256": "01533ba075bd1c07db584d2e409ff2b84fac4d39a4674d703b47c285df4e37bc"
+    },
+    {
+      "file": "FMA32641.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32641.stl",
+      "sha256": "1c2a7e94492fcb669ed3cb625e7c985a8f5fafa55ba4752056c6d7815115c57e"
+    },
+    {
+      "file": "FMA32642.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32642.stl",
+      "sha256": "0d90e6b2cebc5bd549c003f231ba97c2f13a86ff4785008b3af0e4139debb2af"
+    },
+    {
+      "file": "FMA32643.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32643.stl",
+      "sha256": "04104428a3dfd3ac67bf2123ede0ca1d824727cc55bfe743fa1fb6f8af20e81b"
+    },
+    {
+      "file": "FMA32644.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32644.stl",
+      "sha256": "eaaca0c069e9bf87a510a90f2b65d71f3b5e9eb352a517778a51d35843b54aab"
+    },
+    {
+      "file": "FMA32645.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32645.stl",
+      "sha256": "f4aa40882a462f3a745246429a7505de62768055442110afdd22adf1aae388ce"
+    },
+    {
+      "file": "FMA32646.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32646.stl",
+      "sha256": "adeb430f41fd03025bc8afe1e63dbd07ec95a2f81918748f961d462290bd01e9"
+    },
+    {
+      "file": "FMA32647.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32647.stl",
+      "sha256": "9306b09f5b76600b751ae07bf6c187343bb275264e79a746f012624e49ec2f41"
+    },
+    {
+      "file": "FMA32650.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32650.stl",
+      "sha256": "caf9a776cb2355ca7697137967185b9572aee764597c6c0ec4f8c517fbca4144"
+    },
+    {
+      "file": "FMA32651.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32651.stl",
+      "sha256": "e458177c7ea9def14dc65216030204067edf0c4b2f5b1fa63413b444992df019"
+    },
+    {
+      "file": "FMA32652.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32652.stl",
+      "sha256": "47942ff087e7cb277b675426762d6462816e3c91ca956aa0026f91bb2dffb023"
+    },
+    {
+      "file": "FMA32653.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32653.stl",
+      "sha256": "0c00998531f7ade85eb9de448afcaf05fea491dd2e3067ebdae7622e2878ec1d"
+    },
+    {
+      "file": "FMA32654.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32654.stl",
+      "sha256": "884aeb353b3ddd9487e4c7f6710c3cf6b97d9b4ca05f535340737b9932a71970"
+    },
+    {
+      "file": "FMA32655.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32655.stl",
+      "sha256": "0478a76fc42ab91c72e734400831e816fa615994453a9b6c04ed77065c6bff50"
+    },
+    {
+      "file": "FMA32656.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32656.stl",
+      "sha256": "f573a3df27af5424fd81f439d1dc039c0d057607cceed1e62556b690e540eb2d"
+    },
+    {
+      "file": "FMA32657.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32657.stl",
+      "sha256": "c02024cd29e3275ba007d4aa9a33d64b2f7bdfbffefd5945630a881c5cb9af61"
+    },
+    {
+      "file": "FMA32658.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32658.stl",
+      "sha256": "6357c99acb389ae30089ca7702ec0f465c2704c763234efc64ec963bee79b77f"
+    },
+    {
+      "file": "FMA32659.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA32659.stl",
+      "sha256": "d5b5043cd075c5dea5cc232ee569251f086748546f9167ff4e777e40fde289a3"
+    },
+    {
+      "file": "FMA43253.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA43253.stl",
+      "sha256": "41f037dcecbe342831931c61db090272d88765c531c75675d9efa08e49074520"
+    },
+    {
+      "file": "FMA43254.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA43254.stl",
+      "sha256": "d87a1b3005c029b270260a3380e817b6204b545dec9373649a713c1b04897c24"
+    },
+    {
+      "file": "FMA45097.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA45097.stl",
+      "sha256": "f7ebf3baf68c73ed801034b6d35228f9bbe98ec5af30df30186a3a267f066b31"
+    },
+    {
+      "file": "FMA45098.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA45098.stl",
+      "sha256": "ad0c9167332fcce6cab2ac30993640b3d3b2287d5809b84f8179739f2c04a769"
+    },
+    {
+      "file": "FMA52734.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52734.stl",
+      "sha256": "0791c2e2dde886005d3d5997b75a05353d3ae20d908fc74ab820a58520d26f46"
+    },
+    {
+      "file": "FMA52735.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52735.stl",
+      "sha256": "22467369bae988b5afc2699c631f3ae0d2db2ef65a624ccb5c6a259d767415b5"
+    },
+    {
+      "file": "FMA52736.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52736.stl",
+      "sha256": "76e95b3525d5e94964f5ed5308e8234f78945b9c2ffdc6065e5d3a6e2dc08777"
+    },
+    {
+      "file": "FMA52738.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52738.stl",
+      "sha256": "c4d134473a62f43ab18efa415f394ff6c01a07ca14664a640a4ba787eaa6cadc"
+    },
+    {
+      "file": "FMA52739.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52739.stl",
+      "sha256": "c42357deb26fb0468d7a2f4b471e7e7d8e7363cc5abe7e6d90e982c3d1ae449f"
+    },
+    {
+      "file": "FMA52740.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52740.stl",
+      "sha256": "732b19d2f1784564cdcbe3dd892eebbc1d0274a62491fecb3779186371faaf93"
+    },
+    {
+      "file": "FMA52748.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52748.stl",
+      "sha256": "e0321ce797a06e8e14fea22261084262cf28099172224e22f44a60d66c42a888"
+    },
+    {
+      "file": "FMA52749.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52749.stl",
+      "sha256": "6fb62b5be3fa82ee49daaebc00368eda788d113bacfee742a066b41aad17621b"
+    },
+    {
+      "file": "FMA52788.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52788.stl",
+      "sha256": "b2bb58e09216066e45af9d74894b8974cbe84bc3a0fa4db5b614670272d5c428"
+    },
+    {
+      "file": "FMA52789.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52789.stl",
+      "sha256": "fbff8a906a4a96ff287b842c5a14ebbee2d96c2df6d554608861b011836a1346"
+    },
+    {
+      "file": "FMA52892.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52892.stl",
+      "sha256": "a7af6f93c52cd816c3b5f134811ebe1cba5766e0ab170747cff37c089cbcc001"
+    },
+    {
+      "file": "FMA52893.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA52893.stl",
+      "sha256": "a47bff85f4f2fbde1ed67cdb79688414616f9ca05187425bc2ffa1b841295feb"
+    },
+    {
+      "file": "FMA53645.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA53645.stl",
+      "sha256": "19849965bec68b62f2d6c08968ab1d421cddd433f65e7d7e60fedaa4b5cf3466"
+    },
+    {
+      "file": "FMA53646.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA53646.stl",
+      "sha256": "9c3dc16643b4d11476b055f6785775a725d6e1cdf7497e26d4c634fda446e010"
+    },
+    {
+      "file": "FMA53647.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA53647.stl",
+      "sha256": "a2c4e73f0346df903e9fcc4c7522c2ce9a82fd65f2f8f2993867812306577303"
+    },
+    {
+      "file": "FMA53648.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA53648.stl",
+      "sha256": "576a778c98145cbe676ca7c97f599430f8f52ed367ba4907d7ab1ebb720bb5ca"
+    },
+    {
+      "file": "FMA53649.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA53649.stl",
+      "sha256": "a83de38623317730c5f6c47be8c98b1fd7780b23317d09ca35e1f4f0735dd02e"
+    },
+    {
+      "file": "FMA53650.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA53650.stl",
+      "sha256": "875a8fafabc5df5c11d9cdc6c99ac37326c7f77c5ab5987e8d5b3d00e0d8b907"
+    },
+    {
+      "file": "FMA53655.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA53655.stl",
+      "sha256": "318b033125aa504ed5583e61c4a6808a7fd998835d2dceef9df17c327726582b"
+    },
+    {
+      "file": "FMA53656.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA53656.stl",
+      "sha256": "1ac7ac814f39eb834d2f175002825085c6b04ecc94751ec247ab7c0161cabe37"
+    },
+    {
+      "file": "FMA54737.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA54737.stl",
+      "sha256": "7797ac8cb5c391b89091f704b810ee72d0a2e6f2bc31e088d9d9732c12606acf"
+    },
+    {
+      "file": "FMA54738.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA54738.stl",
+      "sha256": "b5433ce863c424e22f113062e23812b81afbbdacac33b5afa73ecab03b6ebeff"
+    },
+    {
+      "file": "FMA65470.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA65470.stl",
+      "sha256": "3ca7d68ada2e272dfcac9b207083e4b1efeb2292f19ea4fffc92531ddc27f511"
+    },
+    {
+      "file": "FMA66791.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA66791.stl",
+      "sha256": "74b692eed46bc7b2bc619dce7e7426a97be2b644bfefcc57e4ef6983237a68c7"
+    },
+    {
+      "file": "FMA71908.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA71908.stl",
+      "sha256": "d5028ed8251d30dc76d16f519da2054dffa3b303dda9eb33e9a7ce58cc1c01a7"
+    },
+    {
+      "file": "FMA71915.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA71915.stl",
+      "sha256": "906b9e7614f4bb4a65099514c33c666ef5f94dba4137e8b64df0a86d780fddd6"
+    },
+    {
+      "file": "FMA71916.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA71916.stl",
+      "sha256": "490d733e1d3196cca3fd01141868a0cfa65e39e5f9cabecd3bd4ed8b27176596"
+    },
+    {
+      "file": "FMA7486.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA7486.stl",
+      "sha256": "1d503e4a4b7b7090bb43ced9870d8bf8c618c4cc6c88f9570a6a3c0962b6597b"
+    },
+    {
+      "file": "FMA7487.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA7487.stl",
+      "sha256": "33488974f006fbf6404b7c3b095fac3502cd4c2abc787293eaf21e4c84193a90"
+    },
+    {
+      "file": "FMA7488.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA7488.stl",
+      "sha256": "1cf0972021a6dc32d12b5d9da6bd4f3f68ba79005d3590ef550cb416b9cc1431"
+    },
+    {
+      "file": "FMA7857.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA7857.stl",
+      "sha256": "60aaf884bbba890b825cc96036ab3af04ab8ba9a8d283752ba5c86105927b265"
+    },
+    {
+      "file": "FMA7875.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA7875.stl",
+      "sha256": "5a92e898b016f1d6cc485498ff0f0e207b31098feccabc85d5219f103c4cb206"
+    },
+    {
+      "file": "FMA7882.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA7882.stl",
+      "sha256": "be841be06ebe7f2554655e222a5c5237a40103335816eb6c2d51dae28bb9a7b0"
+    },
+    {
+      "file": "FMA7886.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA7886.stl",
+      "sha256": "a714eaf849a06c058e7decd6f835395ae5d311087cb421b54ae8b8ad9037e8af"
+    },
+    {
+      "file": "FMA7909.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA7909.stl",
+      "sha256": "942b53665d37f1541b49772e092d557ffee0407fa917205eb204c612c707710a"
+    },
+    {
+      "file": "FMA7913.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA7913.stl",
+      "sha256": "46ee473827b2d0c86e89e987abd6a3a06bf58d83b1cf5a15ac74a4e329407fd8"
+    },
+    {
+      "file": "FMA7957.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA7957.stl",
+      "sha256": "f09aed293efeaca491348e4b0d68aba243ad69b12da16c99ca0af8dfdbbe1537"
+    },
+    {
+      "file": "FMA7976.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA7976.stl",
+      "sha256": "8eb4e349353481cb9fc5e61cc64335d09fdd835b704725d21a7a0259f579b2c8"
+    },
+    {
+      "file": "FMA7987.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA7987.stl",
+      "sha256": "47054d1d5654d7612a853d28529784a04719235c7162c20f3c11b14778735526"
+    },
+    {
+      "file": "FMA8005.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8005.stl",
+      "sha256": "ec3ce37db56619908322f97ec11a3fac6af3783b1c1becf0584aba0b3aaa34d0"
+    },
+    {
+      "file": "FMA8012.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8012.stl",
+      "sha256": "f6aadf30d7b507bd545fdcbb4f43630fc331c652fe1c4024d75380c1dfae45e6"
+    },
+    {
+      "file": "FMA8031.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8031.stl",
+      "sha256": "a1789b441e573b99c2ec9bc926bbbb4ea3e1320024a4d192a495eb6e6d17380b"
+    },
+    {
+      "file": "FMA8039.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8039.stl",
+      "sha256": "344b8098d9d10c0fb24bc11cd5f1cf41aba35070c4344d84b9a9b9b01026d394"
+    },
+    {
+      "file": "FMA8058.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8058.stl",
+      "sha256": "94b352139f62506839687cef4dc7ffc9e8314094a4975cc0d9105f79eedc376a"
+    },
+    {
+      "file": "FMA8066.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8066.stl",
+      "sha256": "692ce079c288c646d05f30bd656554c2ea5efb382390a2cfa5f1f3215a57fb4c"
+    },
+    {
+      "file": "FMA8070.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8070.stl",
+      "sha256": "4806b779a0c7ff894f258172c8d38ea27773846dfde5c3dbc4ec1970efc934aa"
+    },
+    {
+      "file": "FMA8093.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8093.stl",
+      "sha256": "c795ccae604bc9ffa90b607c04135548e6c6febcbe2276fb19a29167d4f2591e"
+    },
+    {
+      "file": "FMA8112.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8112.stl",
+      "sha256": "ec2b2c0aa5181884e2661695f821e34e3a3774ae4cce7125b6d8eee8cc396945"
+    },
+    {
+      "file": "FMA8148.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8148.stl",
+      "sha256": "477e7de3c896937eb7df14760a63c0003cdeb6de9ae156d02a46da960081456f"
+    },
+    {
+      "file": "FMA8167.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8167.stl",
+      "sha256": "3ad3eed191f35c724b5beefaa835852b3e3f3e874871278bb5423cef17f2efcd"
+    },
+    {
+      "file": "FMA8175.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8175.stl",
+      "sha256": "c7ceddf05e6f5b31a51f5cd5017659f10496fc004007052c45c0fddce2cbcf90"
+    },
+    {
+      "file": "FMA8194.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8194.stl",
+      "sha256": "0036ae34629bdc085cdca443267e6624fa645623b7baf0a34469920689778552"
+    },
+    {
+      "file": "FMA8202.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8202.stl",
+      "sha256": "1230ade55f5abf93769e38411a2e6cb72a8e480a9335bfff21a0ef4c3ef78a1c"
+    },
+    {
+      "file": "FMA8221.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8221.stl",
+      "sha256": "a378b49e15d1a728170cc4a14642bd40d3a451f601e60e41204ce004f0025708"
+    },
+    {
+      "file": "FMA8229.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8229.stl",
+      "sha256": "035891a2b0a602bc07206e6a560c43ace3270f9111fda00d3407a95991a69e3f"
+    },
+    {
+      "file": "FMA8248.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8248.stl",
+      "sha256": "deed7fc150913c7f1a5944ede84f5c80314bf80ee320e086040694232e440b89"
+    },
+    {
+      "file": "FMA8256.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8256.stl",
+      "sha256": "48a8cb5f072ee227097420c8af4707f1a2cae82127b3b11f846a6a80d8a66803"
+    },
+    {
+      "file": "FMA8275.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8275.stl",
+      "sha256": "22f94e1cff58983b435c2c838bf28b286172c226b36499160c3bbcedeadff098"
+    },
+    {
+      "file": "FMA8283.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8283.stl",
+      "sha256": "bb77ea1b25858457b67e2be43a09077a2de0e2a3c662c3bc2b1528f28b458b84"
+    },
+    {
+      "file": "FMA8310.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8310.stl",
+      "sha256": "89a351122e11281fb5f2ac6a6b7d7d79ca3c6c04f5be19cfcb9264988b3c9c33"
+    },
+    {
+      "file": "FMA8364.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8364.stl",
+      "sha256": "22f08d07eb9edcd51a3de7d3bb59df3cf848cc091808ec9e7080a937620a06fe"
+    },
+    {
+      "file": "FMA8391.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8391.stl",
+      "sha256": "b912e0b9e6238b00620a657d299db5f08fcfb7cc359ac56f80d8c5c45a93a3a4"
+    },
+    {
+      "file": "FMA8445.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8445.stl",
+      "sha256": "74b03c2cd1d227d262d848aa0564b2022f1944bcaf6d3b469cceb5310da07c70"
+    },
+    {
+      "file": "FMA8472.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8472.stl",
+      "sha256": "73ceca00c9334232a2ee2221eb03fbc75f7b37cfc45e3762dc867571e1ca67b9"
+    },
+    {
+      "file": "FMA8531.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8531.stl",
+      "sha256": "e2bc61ccb59923b00048f093cb5d105c5a4a03f5d4cabce2be147df0192af269"
+    },
+    {
+      "file": "FMA8532.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8532.stl",
+      "sha256": "1e744600b93e628619746faa6921a3b72b955c437dc4b35a1dbff0421776ac6b"
+    },
+    {
+      "file": "FMA8533.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8533.stl",
+      "sha256": "eb47b3d7b6b8440a90fe27f333c8f30f72c6ae82694f4d0737ca6279b04e0b74"
+    },
+    {
+      "file": "FMA8534.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA8534.stl",
+      "sha256": "47df6f4c18e72581fa78b08aa83326321d8179a3b363743a7e40697f645cd679"
+    },
+    {
+      "file": "FMA9165.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA9165.stl",
+      "sha256": "ca7d411ee7e536c64f37ab217a151b9edfa4fbd7fdc80994ddb8e2a895a14cff"
+    },
+    {
+      "file": "FMA9187.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA9187.stl",
+      "sha256": "819eee72d2b2582a6ac99757371a451ae22496311cbffbc7fd8a5027c51316a4"
+    },
+    {
+      "file": "FMA9209.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA9209.stl",
+      "sha256": "3fb7d0c13bb268aba5bd60d3ebb6cc8fa0b2c3e265003d103cb126164b89653c"
+    },
+    {
+      "file": "FMA9248.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA9248.stl",
+      "sha256": "807493e20e64589561133744080d1d1259417b54a355f03b302aac2deb6aa2d9"
+    },
+    {
+      "file": "FMA9710.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA9710.stl",
+      "sha256": "8504c22ef2017bf56768f1127d607ccb0947dab8b2893e546d0ececc76d28d9b"
+    },
+    {
+      "file": "FMA9922.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA9922.stl",
+      "sha256": "c4d79d935d42cebc31350995d2b1270aa33c9d00afab8b965ac9571dbca89e86"
+    },
+    {
+      "file": "FMA9945.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA9945.stl",
+      "sha256": "591757ab8228e95d93733e276f424b240ce9e050cf7bf7ec10775c35004f908b"
+    },
+    {
+      "file": "FMA9968.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA9968.stl",
+      "sha256": "e1ee58047e8e28646aeb1d94a4afa20395aed9573509de6a659db31ddfa8b8fd"
+    },
+    {
+      "file": "FMA9991.stl",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA9991.stl",
+      "sha256": "80b1dc4d2ef0c3e2828d9fb56c4f079d3b8007531c0ac21069f9e47bc784bb0f"
+    }
+  ],
+  "simplification": {
+    "tool": "meshoptimizer 1.3.0 simplify",
+    "trianglesPerMmOfDiagonal": 12,
+    "minTriangles": 400,
+    "maxRelativeError": 0.01
+  },
+  "transform": {
+    "sourceBoundsMm": {
+      "min": [
+        -324.6510009765625,
+        -230.84500122070312,
+        -4.171000003814697
+      ],
+      "max": [
+        323.31500244140625,
+        11.351699829101562,
+        1638.219970703125
+      ]
+    },
+    "centerMm": [
+      -0.667999267578125,
+      -109.74665069580078,
+      817.0244853496552
+    ],
+    "scale": 0.0025,
+    "axes": "[x, z, -y]"
+  },
+  "runtime": {
+    "file": "skeleton.glb",
+    "bytes": 5221116,
+    "sha256": "c68b05d97d70c4d33363bf71d9885c191eb25f61a82dbba935a726ddd8e60ac8"
+  },
+  "structures": [
+    {
+      "id": "frontal-bone",
+      "fma": "FMA52734",
+      "sourceName": "frontal bone",
+      "sources": [
+        {
+          "element": "FMA52734",
+          "sha256": "0791c2e2dde886005d3d5997b75a05353d3ae20d908fc74ab820a58520d26f46",
+          "bytes": 1653184,
+          "vertices": 16531,
+          "triangles": 33062
+        }
+      ],
+      "runtimeTriangles": 2048
+    },
+    {
+      "id": "right-parietal-bone",
+      "fma": "FMA52788",
+      "sourceName": "right parietal bone",
+      "sources": [
+        {
+          "element": "FMA52788",
+          "sha256": "b2bb58e09216066e45af9d74894b8974cbe84bc3a0fa4db5b614670272d5c428",
+          "bytes": 1486784,
+          "vertices": 14863,
+          "triangles": 29734
+        }
+      ],
+      "runtimeTriangles": 2300
+    },
+    {
+      "id": "left-parietal-bone",
+      "fma": "FMA52789",
+      "sourceName": "left parietal bone",
+      "sources": [
+        {
+          "element": "FMA52789",
+          "sha256": "fbff8a906a4a96ff287b842c5a14ebbee2d96c2df6d554608861b011836a1346",
+          "bytes": 1512584,
+          "vertices": 15123,
+          "triangles": 30250
+        }
+      ],
+      "runtimeTriangles": 2340
+    },
+    {
+      "id": "occipital-bone",
+      "fma": "FMA52735",
+      "sourceName": "occipital bone",
+      "sources": [
+        {
+          "element": "FMA52735",
+          "sha256": "22467369bae988b5afc2699c631f3ae0d2db2ef65a624ccb5c6a259d767415b5",
+          "bytes": 1390684,
+          "vertices": 13904,
+          "triangles": 27812
+        }
+      ],
+      "runtimeTriangles": 2284
+    },
+    {
+      "id": "right-temporal-bone",
+      "fma": "FMA52738",
+      "sourceName": "right temporal bone",
+      "sources": [
+        {
+          "element": "FMA52738",
+          "sha256": "c4d134473a62f43ab18efa415f394ff6c01a07ca14664a640a4ba787eaa6cadc",
+          "bytes": 563784,
+          "vertices": 5633,
+          "triangles": 11274
+        }
+      ],
+      "runtimeTriangles": 1582
+    },
+    {
+      "id": "left-temporal-bone",
+      "fma": "FMA52739",
+      "sourceName": "left temporal bone",
+      "sources": [
+        {
+          "element": "FMA52739",
+          "sha256": "c42357deb26fb0468d7a2f4b471e7e7d8e7363cc5abe7e6d90e982c3d1ae449f",
+          "bytes": 560484,
+          "vertices": 5604,
+          "triangles": 11208
+        }
+      ],
+      "runtimeTriangles": 1578
+    },
+    {
+      "id": "sphenoid-bone",
+      "fma": "FMA52736",
+      "sourceName": "sphenoid bone",
+      "sources": [
+        {
+          "element": "FMA52736",
+          "sha256": "76e95b3525d5e94964f5ed5308e8234f78945b9c2ffdc6065e5d3a6e2dc08777",
+          "bytes": 766184,
+          "vertices": 7647,
+          "triangles": 15322
+        }
+      ],
+      "runtimeTriangles": 1616
+    },
+    {
+      "id": "ethmoid-bone",
+      "fma": "FMA52740",
+      "sourceName": "ethmoid",
+      "sources": [
+        {
+          "element": "FMA52740",
+          "sha256": "732b19d2f1784564cdcbe3dd892eebbc1d0274a62491fecb3779186371faaf93",
+          "bytes": 388784,
+          "vertices": 3887,
+          "triangles": 7774
+        }
+      ],
+      "runtimeTriangles": 1168
+    },
+    {
+      "id": "right-nasal-bone",
+      "fma": "FMA53647",
+      "sourceName": "right nasal bone",
+      "sources": [
+        {
+          "element": "FMA53647",
+          "sha256": "a2c4e73f0346df903e9fcc4c7522c2ce9a82fd65f2f8f2993867812306577303",
+          "bytes": 51284,
+          "vertices": 514,
+          "triangles": 1024
+        }
+      ],
+      "runtimeTriangles": 450
+    },
+    {
+      "id": "right-lacrimal-bone",
+      "fma": "FMA53645",
+      "sourceName": "right lacrimal bone",
+      "sources": [
+        {
+          "element": "FMA53645",
+          "sha256": "19849965bec68b62f2d6c08968ab1d421cddd433f65e7d7e60fedaa4b5cf3466",
+          "bytes": 55784,
+          "vertices": 559,
+          "triangles": 1114
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "right-zygomatic-bone",
+      "fma": "FMA52892",
+      "sourceName": "right zygomatic bone",
+      "sources": [
+        {
+          "element": "FMA52892",
+          "sha256": "a7af6f93c52cd816c3b5f134811ebe1cba5766e0ab170747cff37c089cbcc001",
+          "bytes": 230684,
+          "vertices": 2308,
+          "triangles": 4612
+        }
+      ],
+      "runtimeTriangles": 860
+    },
+    {
+      "id": "right-maxilla",
+      "fma": "FMA53649",
+      "sourceName": "right maxilla",
+      "sources": [
+        {
+          "element": "FMA53649",
+          "sha256": "a83de38623317730c5f6c47be8c98b1fd7780b23317d09ca35e1f4f0735dd02e",
+          "bytes": 707484,
+          "vertices": 7068,
+          "triangles": 14148
+        }
+      ],
+      "runtimeTriangles": 1140
+    },
+    {
+      "id": "right-palatine-bone",
+      "fma": "FMA53655",
+      "sourceName": "right palatine bone",
+      "sources": [
+        {
+          "element": "FMA53655",
+          "sha256": "318b033125aa504ed5583e61c4a6808a7fd998835d2dceef9df17c327726582b",
+          "bytes": 179684,
+          "vertices": 1798,
+          "triangles": 3592
+        }
+      ],
+      "runtimeTriangles": 692
+    },
+    {
+      "id": "right-inferior-nasal-concha",
+      "fma": "FMA54737",
+      "sourceName": "right inferior nasal concha",
+      "sources": [
+        {
+          "element": "FMA54737",
+          "sha256": "7797ac8cb5c391b89091f704b810ee72d0a2e6f2bc31e088d9d9732c12606acf",
+          "bytes": 80884,
+          "vertices": 806,
+          "triangles": 1616
+        }
+      ],
+      "runtimeTriangles": 494
+    },
+    {
+      "id": "left-nasal-bone",
+      "fma": "FMA53648",
+      "sourceName": "left nasal bone",
+      "sources": [
+        {
+          "element": "FMA53648",
+          "sha256": "576a778c98145cbe676ca7c97f599430f8f52ed367ba4907d7ab1ebb720bb5ca",
+          "bytes": 56284,
+          "vertices": 564,
+          "triangles": 1124
+        }
+      ],
+      "runtimeTriangles": 444
+    },
+    {
+      "id": "left-lacrimal-bone",
+      "fma": "FMA53646",
+      "sourceName": "left lacrimal bone",
+      "sources": [
+        {
+          "element": "FMA53646",
+          "sha256": "9c3dc16643b4d11476b055f6785775a725d6e1cdf7497e26d4c634fda446e010",
+          "bytes": 57684,
+          "vertices": 578,
+          "triangles": 1152
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "left-zygomatic-bone",
+      "fma": "FMA52893",
+      "sourceName": "left zygomatic bone",
+      "sources": [
+        {
+          "element": "FMA52893",
+          "sha256": "a47bff85f4f2fbde1ed67cdb79688414616f9ca05187425bc2ffa1b841295feb",
+          "bytes": 228084,
+          "vertices": 2282,
+          "triangles": 4560
+        }
+      ],
+      "runtimeTriangles": 860
+    },
+    {
+      "id": "left-maxilla",
+      "fma": "FMA53650",
+      "sourceName": "left maxilla",
+      "sources": [
+        {
+          "element": "FMA53650",
+          "sha256": "875a8fafabc5df5c11d9cdc6c99ac37326c7f77c5ab5987e8d5b3d00e0d8b907",
+          "bytes": 725384,
+          "vertices": 7251,
+          "triangles": 14506
+        }
+      ],
+      "runtimeTriangles": 1160
+    },
+    {
+      "id": "left-palatine-bone",
+      "fma": "FMA53656",
+      "sourceName": "left palatine bone",
+      "sources": [
+        {
+          "element": "FMA53656",
+          "sha256": "1ac7ac814f39eb834d2f175002825085c6b04ecc94751ec247ab7c0161cabe37",
+          "bytes": 182184,
+          "vertices": 1823,
+          "triangles": 3642
+        }
+      ],
+      "runtimeTriangles": 722
+    },
+    {
+      "id": "left-inferior-nasal-concha",
+      "fma": "FMA54738",
+      "sourceName": "left inferior nasal concha",
+      "sources": [
+        {
+          "element": "FMA54738",
+          "sha256": "b5433ce863c424e22f113062e23812b81afbbdacac33b5afa73ecab03b6ebeff",
+          "bytes": 74284,
+          "vertices": 744,
+          "triangles": 1484
+        }
+      ],
+      "runtimeTriangles": 462
+    },
+    {
+      "id": "vomer",
+      "fma": "FMA9710",
+      "sourceName": "vomer",
+      "sources": [
+        {
+          "element": "FMA9710",
+          "sha256": "8504c22ef2017bf56768f1127d607ccb0947dab8b2893e546d0ececc76d28d9b",
+          "bytes": 121184,
+          "vertices": 1213,
+          "triangles": 2422
+        }
+      ],
+      "runtimeTriangles": 772
+    },
+    {
+      "id": "mandible",
+      "fma": "FMA52748",
+      "sourceName": "mandible",
+      "sources": [
+        {
+          "element": "FMA52748",
+          "sha256": "e0321ce797a06e8e14fea22261084262cf28099172224e22f44a60d66c42a888",
+          "bytes": 1082984,
+          "vertices": 10831,
+          "triangles": 21658
+        }
+      ],
+      "runtimeTriangles": 1810
+    },
+    {
+      "id": "hyoid-bone",
+      "fma": "FMA52749",
+      "sourceName": "hyoid bone",
+      "sources": [
+        {
+          "element": "FMA52749",
+          "sha256": "6fb62b5be3fa82ee49daaebc00368eda788d113bacfee742a066b41aad17621b",
+          "bytes": 276784,
+          "vertices": 2769,
+          "triangles": 5534
+        }
+      ],
+      "runtimeTriangles": 692
+    },
+    {
+      "id": "atlas-c1",
+      "fma": "FMA12519",
+      "sourceName": "atlas",
+      "sources": [
+        {
+          "element": "FMA12519",
+          "sha256": "cc959122b7875a65d78597d89134fdb2f59a7c0f60d2e781c399db4010208f81",
+          "bytes": 308684,
+          "vertices": 3082,
+          "triangles": 6172
+        }
+      ],
+      "runtimeTriangles": 1186
+    },
+    {
+      "id": "axis-c2",
+      "fma": "FMA12520",
+      "sourceName": "axis",
+      "sources": [
+        {
+          "element": "FMA12520",
+          "sha256": "9e2a940db7b4bf921f97b63ed5aa549f675effe55af2cc81ad8589331309f896",
+          "bytes": 343584,
+          "vertices": 3431,
+          "triangles": 6870
+        }
+      ],
+      "runtimeTriangles": 1008
+    },
+    {
+      "id": "third-cervical-vertebra-c3",
+      "fma": "FMA12521",
+      "sourceName": "third cervical vertebra",
+      "sources": [
+        {
+          "element": "FMA12521",
+          "sha256": "1147f621766b9dce37b21a827f552c5669afaaf49531aab8d7b0df6f374233d1",
+          "bytes": 263984,
+          "vertices": 2635,
+          "triangles": 5278
+        }
+      ],
+      "runtimeTriangles": 962
+    },
+    {
+      "id": "fourth-cervical-vertebra-c4",
+      "fma": "FMA12522",
+      "sourceName": "fourth cervical vertebra",
+      "sources": [
+        {
+          "element": "FMA12522",
+          "sha256": "34ea19b8f1c42e91c96f1ce19c520c2f72cda372c5373b15f85dc102e8da8208",
+          "bytes": 211284,
+          "vertices": 2108,
+          "triangles": 4224
+        }
+      ],
+      "runtimeTriangles": 952
+    },
+    {
+      "id": "fifth-cervical-vertebra-c5",
+      "fma": "FMA12523",
+      "sourceName": "fifth cervical vertebra",
+      "sources": [
+        {
+          "element": "FMA12523",
+          "sha256": "e33ae49024283758ff60e48d14eeacf123fb79c48730e275951222e0fd91739c",
+          "bytes": 237784,
+          "vertices": 2373,
+          "triangles": 4754
+        }
+      ],
+      "runtimeTriangles": 998
+    },
+    {
+      "id": "sixth-cervical-vertebra-c6",
+      "fma": "FMA12524",
+      "sourceName": "sixth cervical vertebra",
+      "sources": [
+        {
+          "element": "FMA12524",
+          "sha256": "449c209bd191ce4a0fbd32b422d48d0ab73142427b336dde45688f08f06455c6",
+          "bytes": 317584,
+          "vertices": 3171,
+          "triangles": 6350
+        }
+      ],
+      "runtimeTriangles": 1064
+    },
+    {
+      "id": "seventh-cervical-vertebra-c7",
+      "fma": "FMA12525",
+      "sourceName": "seventh cervical vertebra",
+      "sources": [
+        {
+          "element": "FMA12525",
+          "sha256": "083c2e5aa6876089f4b9fa43aaa1cb2ce5284ba5b49cb1700b8dbdaca89729b7",
+          "bytes": 261184,
+          "vertices": 2607,
+          "triangles": 5222
+        }
+      ],
+      "runtimeTriangles": 1188
+    },
+    {
+      "id": "first-thoracic-vertebra-t1",
+      "fma": "FMA9165",
+      "sourceName": "first thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA9165",
+          "sha256": "ca7d411ee7e536c64f37ab217a151b9edfa4fbd7fdc80994ddb8e2a895a14cff",
+          "bytes": 280784,
+          "vertices": 2807,
+          "triangles": 5614
+        }
+      ],
+      "runtimeTriangles": 1254
+    },
+    {
+      "id": "second-thoracic-vertebra-t2",
+      "fma": "FMA9187",
+      "sourceName": "second thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA9187",
+          "sha256": "819eee72d2b2582a6ac99757371a451ae22496311cbffbc7fd8a5027c51316a4",
+          "bytes": 418084,
+          "vertices": 4180,
+          "triangles": 8360
+        }
+      ],
+      "runtimeTriangles": 1264
+    },
+    {
+      "id": "third-thoracic-vertebra-t3",
+      "fma": "FMA9209",
+      "sourceName": "third thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA9209",
+          "sha256": "3fb7d0c13bb268aba5bd60d3ebb6cc8fa0b2c3e265003d103cb126164b89653c",
+          "bytes": 445584,
+          "vertices": 4455,
+          "triangles": 8910
+        }
+      ],
+      "runtimeTriangles": 1280
+    },
+    {
+      "id": "fourth-thoracic-vertebra-t4",
+      "fma": "FMA9248",
+      "sourceName": "fourth thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA9248",
+          "sha256": "807493e20e64589561133744080d1d1259417b54a355f03b302aac2deb6aa2d9",
+          "bytes": 446584,
+          "vertices": 4465,
+          "triangles": 8930
+        }
+      ],
+      "runtimeTriangles": 1286
+    },
+    {
+      "id": "fifth-thoracic-vertebra-t5",
+      "fma": "FMA9922",
+      "sourceName": "fifth thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA9922",
+          "sha256": "c4d79d935d42cebc31350995d2b1270aa33c9d00afab8b965ac9571dbca89e86",
+          "bytes": 491784,
+          "vertices": 4917,
+          "triangles": 9834
+        }
+      ],
+      "runtimeTriangles": 1304
+    },
+    {
+      "id": "sixth-thoracic-vertebra-t6",
+      "fma": "FMA9945",
+      "sourceName": "sixth thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA9945",
+          "sha256": "591757ab8228e95d93733e276f424b240ce9e050cf7bf7ec10775c35004f908b",
+          "bytes": 244884,
+          "vertices": 2448,
+          "triangles": 4896
+        }
+      ],
+      "runtimeTriangles": 1358
+    },
+    {
+      "id": "seventh-thoracic-vertebra-t7",
+      "fma": "FMA9968",
+      "sourceName": "seventh thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA9968",
+          "sha256": "e1ee58047e8e28646aeb1d94a4afa20395aed9573509de6a659db31ddfa8b8fd",
+          "bytes": 537084,
+          "vertices": 5370,
+          "triangles": 10740
+        }
+      ],
+      "runtimeTriangles": 1366
+    },
+    {
+      "id": "eighth-thoracic-vertebra-t8",
+      "fma": "FMA9991",
+      "sourceName": "eighth thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA9991",
+          "sha256": "80b1dc4d2ef0c3e2828d9fb56c4f079d3b8007531c0ac21069f9e47bc784bb0f",
+          "bytes": 260384,
+          "vertices": 2603,
+          "triangles": 5206
+        }
+      ],
+      "runtimeTriangles": 1376
+    },
+    {
+      "id": "ninth-thoracic-vertebra-t9",
+      "fma": "FMA10014",
+      "sourceName": "ninth thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA10014",
+          "sha256": "9b44be02a7fc5a136a79d77bbbaa8d7c1642df160b281a8a7220f338db954d2f",
+          "bytes": 564384,
+          "vertices": 5643,
+          "triangles": 11286
+        }
+      ],
+      "runtimeTriangles": 1374
+    },
+    {
+      "id": "tenth-thoracic-vertebra-t10",
+      "fma": "FMA10037",
+      "sourceName": "tenth thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA10037",
+          "sha256": "a7453a5baca48e378e8bdbdfd1cf3733e9a84445f7139e43605b5997f29c7083",
+          "bytes": 596484,
+          "vertices": 5964,
+          "triangles": 11928
+        }
+      ],
+      "runtimeTriangles": 1416
+    },
+    {
+      "id": "eleventh-thoracic-vertebra-t11",
+      "fma": "FMA10059",
+      "sourceName": "eleventh thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA10059",
+          "sha256": "fbdbd603ced5d3e0cb29597deb56bd2e84788228d1cb2c8b056f9709b23759cd",
+          "bytes": 282684,
+          "vertices": 2826,
+          "triangles": 5652
+        }
+      ],
+      "runtimeTriangles": 1298
+    },
+    {
+      "id": "twelfth-thoracic-vertebra-t12",
+      "fma": "FMA10081",
+      "sourceName": "twelfth thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA10081",
+          "sha256": "a5c83982e93be05165e2aa51eb2ae9abcd92b6bfbb9abb076bca29aa17ecad74",
+          "bytes": 301984,
+          "vertices": 3019,
+          "triangles": 6038
+        }
+      ],
+      "runtimeTriangles": 1256
+    },
+    {
+      "id": "first-lumbar-vertebra-l1",
+      "fma": "FMA13072",
+      "sourceName": "first lumbar vertebra",
+      "sources": [
+        {
+          "element": "FMA13072",
+          "sha256": "fc7e0f70a87808629ee655a344e986d741c6111d2664f2b245685d523e5e143a",
+          "bytes": 647384,
+          "vertices": 6473,
+          "triangles": 12946
+        }
+      ],
+      "runtimeTriangles": 1450
+    },
+    {
+      "id": "second-lumbar-vertebra-l2",
+      "fma": "FMA13073",
+      "sourceName": "second lumbar vertebra",
+      "sources": [
+        {
+          "element": "FMA13073",
+          "sha256": "230f9a1ca9efae14e7223bba05e49b2093a486103a29fe67b7907aba41b8ad28",
+          "bytes": 347384,
+          "vertices": 3473,
+          "triangles": 6946
+        }
+      ],
+      "runtimeTriangles": 1474
+    },
+    {
+      "id": "third-lumbar-vertebra-l3",
+      "fma": "FMA13074",
+      "sourceName": "third lumbar vertebra",
+      "sources": [
+        {
+          "element": "FMA13074",
+          "sha256": "8b04d8e2e380daba38d00333658cc0809a0ab8ce8fd7cb7634615628715592fb",
+          "bytes": 737584,
+          "vertices": 7375,
+          "triangles": 14750
+        }
+      ],
+      "runtimeTriangles": 1484
+    },
+    {
+      "id": "fourth-lumbar-vertebra-l4",
+      "fma": "FMA13075",
+      "sourceName": "fourth lumbar vertebra",
+      "sources": [
+        {
+          "element": "FMA13075",
+          "sha256": "3464b94d03d42e43bf5ba01a741b7677bec8113a8359eb4a2caec960c6cf341c",
+          "bytes": 771384,
+          "vertices": 7713,
+          "triangles": 15426
+        }
+      ],
+      "runtimeTriangles": 1512
+    },
+    {
+      "id": "fifth-lumbar-vertebra-l5",
+      "fma": "FMA13076",
+      "sourceName": "fifth lumbar vertebra",
+      "sources": [
+        {
+          "element": "FMA13076",
+          "sha256": "244f54f1388b1cb02014a6de9c1b32ef40d398967bc8e17ed56b46c637fe11c1",
+          "bytes": 864184,
+          "vertices": 8641,
+          "triangles": 17282
+        }
+      ],
+      "runtimeTriangles": 1654
+    },
+    {
+      "id": "sacrum",
+      "fma": "FMA16202",
+      "sourceName": "sacrum",
+      "sources": [
+        {
+          "element": "FMA16202",
+          "sha256": "d52dac1add057e05699c3c767736ab45c9c426ab0eebd438e20cd4f0768ee3d8",
+          "bytes": 2220884,
+          "vertices": 22194,
+          "triangles": 44416
+        }
+      ],
+      "runtimeTriangles": 2516
+    },
+    {
+      "id": "intervertebral-disc-c2-c3",
+      "fma": "FMA25058",
+      "sourceName": "intervertebral disk of axis",
+      "sources": [
+        {
+          "element": "FMA25058",
+          "sha256": "c84e88ea1eb26f8e726c5a33639e5049b279380a5696559fa233070b0bd49bc3",
+          "bytes": 150784,
+          "vertices": 1509,
+          "triangles": 3014
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "intervertebral-disc-c3-c4",
+      "fma": "FMA13896",
+      "sourceName": "intervertebral disk of third cervical vertebra",
+      "sources": [
+        {
+          "element": "FMA13896",
+          "sha256": "1e2f0f453149795d909464ed55bb9cb1fbf1584197b98d13048db515eff585e1",
+          "bytes": 151684,
+          "vertices": 1510,
+          "triangles": 3032
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "intervertebral-disc-c4-c5",
+      "fma": "FMA13897",
+      "sourceName": "intervertebral disk of fourth cervical vertebra",
+      "sources": [
+        {
+          "element": "FMA13897",
+          "sha256": "36fe3d9b358511f9afa99bf543cd8532b02afdf019af38697f98d83b6e8c7e13",
+          "bytes": 175884,
+          "vertices": 1760,
+          "triangles": 3516
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "intervertebral-disc-c5-c6",
+      "fma": "FMA13898",
+      "sourceName": "intervertebral disk of fifth cervical vertebra",
+      "sources": [
+        {
+          "element": "FMA13898",
+          "sha256": "601612edf4d3f96974a5014c18dc0f8123a6a415d5aa328ac765b2b9d0562068",
+          "bytes": 172284,
+          "vertices": 1724,
+          "triangles": 3444
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "intervertebral-disc-c6-c7",
+      "fma": "FMA13899",
+      "sourceName": "intervertebral disk of sixth cervical vertebra",
+      "sources": [
+        {
+          "element": "FMA13899",
+          "sha256": "bd80d97a2e7313b74d67e637cf1ae6c08d7f195611fd2d7390144ef66c58b571",
+          "bytes": 161984,
+          "vertices": 1621,
+          "triangles": 3238
+        }
+      ],
+      "runtimeTriangles": 410
+    },
+    {
+      "id": "intervertebral-disc-c7-t1",
+      "fma": "FMA13900",
+      "sourceName": "intervertebral disk of seventh cervical vertebra",
+      "sources": [
+        {
+          "element": "FMA13900",
+          "sha256": "39f7aff010b15d208949c05c66a1c4c124b88a2a5519604b9939273429462241",
+          "bytes": 195684,
+          "vertices": 1958,
+          "triangles": 3912
+        }
+      ],
+      "runtimeTriangles": 440
+    },
+    {
+      "id": "intervertebral-disc-t1-t2",
+      "fma": "FMA10458",
+      "sourceName": "intervertebral disk of first thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA10458",
+          "sha256": "cc345a834d869a0aed2547f71142aeaebba0a71b68f2fee741f4f494dc41a194",
+          "bytes": 214084,
+          "vertices": 2142,
+          "triangles": 4280
+        }
+      ],
+      "runtimeTriangles": 448
+    },
+    {
+      "id": "intervertebral-disc-t2-t3",
+      "fma": "FMA13495",
+      "sourceName": "intervertebral disk of second thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA13495",
+          "sha256": "75c91c3b0930182b006a11a61b90436518113c45ab734c5e560aa821b34f7e22",
+          "bytes": 248584,
+          "vertices": 2487,
+          "triangles": 4970
+        }
+      ],
+      "runtimeTriangles": 480
+    },
+    {
+      "id": "intervertebral-disc-t3-t4",
+      "fma": "FMA13500",
+      "sourceName": "intervertebral disk of third thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA13500",
+          "sha256": "9d028ee8a56721a902e1a8d1359318b6a54426e90e35b67178ad7c4bb846b32c",
+          "bytes": 258784,
+          "vertices": 2589,
+          "triangles": 5174
+        }
+      ],
+      "runtimeTriangles": 490
+    },
+    {
+      "id": "intervertebral-disc-t4-t5",
+      "fma": "FMA13501",
+      "sourceName": "intervertebral disk of fourth thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA13501",
+          "sha256": "7ad74d432b393516f1907a7e83c8228bd6df9e3180cfcb6c29861a0f672ae65e",
+          "bytes": 315484,
+          "vertices": 3156,
+          "triangles": 6308
+        }
+      ],
+      "runtimeTriangles": 512
+    },
+    {
+      "id": "intervertebral-disc-t5-t6",
+      "fma": "FMA13502",
+      "sourceName": "intervertebral disk of fifth thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA13502",
+          "sha256": "3a39249a51333c9cdcb3308355b61f32920d542b0a5ff09938c00e97ceff4d47",
+          "bytes": 366884,
+          "vertices": 3672,
+          "triangles": 7336
+        }
+      ],
+      "runtimeTriangles": 520
+    },
+    {
+      "id": "intervertebral-disc-t6-t7",
+      "fma": "FMA13503",
+      "sourceName": "intervertebral disk of sixth thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA13503",
+          "sha256": "ef15f946681466de2638ba724dfacd9d903cdcf1936abeca672753fdc706abc1",
+          "bytes": 452984,
+          "vertices": 4531,
+          "triangles": 9058
+        }
+      ],
+      "runtimeTriangles": 560
+    },
+    {
+      "id": "intervertebral-disc-t7-t8",
+      "fma": "FMA13504",
+      "sourceName": "intervertebral disk of seventh thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA13504",
+          "sha256": "1ca0e40f60dec03ea0571f50b61413d3325cdd40044b1304e54992b1238e0cfb",
+          "bytes": 519384,
+          "vertices": 5197,
+          "triangles": 10386
+        }
+      ],
+      "runtimeTriangles": 596
+    },
+    {
+      "id": "intervertebral-disc-t8-t9",
+      "fma": "FMA13505",
+      "sourceName": "intervertebral disk of eighth thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA13505",
+          "sha256": "ff62cdbcc4d60401c8b610043e546dbac1963ff42dce010089a795a6e67169d5",
+          "bytes": 510184,
+          "vertices": 5107,
+          "triangles": 10202
+        }
+      ],
+      "runtimeTriangles": 604
+    },
+    {
+      "id": "intervertebral-disc-t9-t10",
+      "fma": "FMA13506",
+      "sourceName": "intervertebral disk of ninth thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA13506",
+          "sha256": "5f3a1dd5c642b516f433ead521e4534671e6e698908d3beeccdac132d3c59c8d",
+          "bytes": 252084,
+          "vertices": 2572,
+          "triangles": 5040
+        }
+      ],
+      "runtimeTriangles": 626
+    },
+    {
+      "id": "intervertebral-disc-t10-t11",
+      "fma": "FMA13507",
+      "sourceName": "intervertebral disk of tenth thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA13507",
+          "sha256": "c4ab58c84e74b80d19c93f07cff462a9e266385973733c69471140266d50668f",
+          "bytes": 576784,
+          "vertices": 5773,
+          "triangles": 11534
+        }
+      ],
+      "runtimeTriangles": 660
+    },
+    {
+      "id": "intervertebral-disc-t11-t12",
+      "fma": "FMA13508",
+      "sourceName": "intervertebral disk of eleventh thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA13508",
+          "sha256": "6ed3fff864564a73d2f3e9c672a3e31d33f1dbae73bca2d2ce3e77780f798298",
+          "bytes": 714084,
+          "vertices": 7142,
+          "triangles": 14280
+        }
+      ],
+      "runtimeTriangles": 702
+    },
+    {
+      "id": "intervertebral-disc-t12-l1",
+      "fma": "FMA13509",
+      "sourceName": "intervertebral disk of twelfth thoracic vertebra",
+      "sources": [
+        {
+          "element": "FMA13509",
+          "sha256": "8e30dfa39af40b4d450620922bd6c09eef54084cb4ce62ebe65fd551cd161223",
+          "bytes": 726984,
+          "vertices": 7271,
+          "triangles": 14538
+        }
+      ],
+      "runtimeTriangles": 726
+    },
+    {
+      "id": "intervertebral-disc-l1-l2",
+      "fma": "FMA16033",
+      "sourceName": "intervertebral disk of first lumbar vertebra",
+      "sources": [
+        {
+          "element": "FMA16033",
+          "sha256": "becd2da29043aa1503353e0b1639c5043ebaba3b0eed4b74575b906bf3b151df",
+          "bytes": 707684,
+          "vertices": 7072,
+          "triangles": 14152
+        }
+      ],
+      "runtimeTriangles": 694
+    },
+    {
+      "id": "intervertebral-disc-l2-l3",
+      "fma": "FMA16034",
+      "sourceName": "intervertebral disk of second lumbar vertebra",
+      "sources": [
+        {
+          "element": "FMA16034",
+          "sha256": "3b914501418e4ecf14d29a937cc31efa2f6f44f55e2064d7d1b837beecb840e1",
+          "bytes": 680184,
+          "vertices": 6803,
+          "triangles": 13602
+        }
+      ],
+      "runtimeTriangles": 710
+    },
+    {
+      "id": "intervertebral-disc-l3-l4",
+      "fma": "FMA16035",
+      "sourceName": "intervertebral disk of third lumbar vertebra",
+      "sources": [
+        {
+          "element": "FMA16035",
+          "sha256": "e5333841f907f9d2be40e38de5f83a10aa318389e9ddf5ffc2e8ca9d125c95f6",
+          "bytes": 713584,
+          "vertices": 7137,
+          "triangles": 14270
+        }
+      ],
+      "runtimeTriangles": 710
+    },
+    {
+      "id": "intervertebral-disc-l4-l5",
+      "fma": "FMA16036",
+      "sourceName": "intervertebral disk of fourth lumbar vertebra",
+      "sources": [
+        {
+          "element": "FMA16036",
+          "sha256": "865f96b3f3bfed6536808edadd46c7ff742c6ee6e93eb7e8705863643cec7a94",
+          "bytes": 724584,
+          "vertices": 7247,
+          "triangles": 14490
+        }
+      ],
+      "runtimeTriangles": 790
+    },
+    {
+      "id": "intervertebral-disc-l5-s1",
+      "fma": "FMA16037",
+      "sourceName": "intervertebral disk of fifth lumbar vertebra",
+      "sources": [
+        {
+          "element": "FMA16037",
+          "sha256": "5685541c36f639d7764f9ac6c206c31d2ed03b0d2e3dbc751c0ff2e0a91c8ad6",
+          "bytes": 808984,
+          "vertices": 8091,
+          "triangles": 16178
+        }
+      ],
+      "runtimeTriangles": 856
+    },
+    {
+      "id": "manubrium-of-sternum",
+      "fma": "FMA7486",
+      "sourceName": "manubrium",
+      "sources": [
+        {
+          "element": "FMA7486",
+          "sha256": "1d503e4a4b7b7090bb43ced9870d8bf8c618c4cc6c88f9570a6a3c0962b6597b",
+          "bytes": 594184,
+          "vertices": 5943,
+          "triangles": 11882
+        }
+      ],
+      "runtimeTriangles": 1096
+    },
+    {
+      "id": "body-of-sternum",
+      "fma": "FMA7487",
+      "sourceName": "body of sternum",
+      "sources": [
+        {
+          "element": "FMA7487",
+          "sha256": "33488974f006fbf6404b7c3b095fac3502cd4c2abc787293eaf21e4c84193a90",
+          "bytes": 995884,
+          "vertices": 9956,
+          "triangles": 19916
+        }
+      ],
+      "runtimeTriangles": 1578
+    },
+    {
+      "id": "xiphoid-process",
+      "fma": "FMA7488",
+      "sourceName": "xiphoid process",
+      "sources": [
+        {
+          "element": "FMA7488",
+          "sha256": "1cf0972021a6dc32d12b5d9da6bd4f3f68ba79005d3590ef550cb416b9cc1431",
+          "bytes": 204384,
+          "vertices": 2045,
+          "triangles": 4086
+        }
+      ],
+      "runtimeTriangles": 406
+    },
+    {
+      "id": "right-first-rib",
+      "fma": "FMA7857",
+      "sourceName": "right first rib",
+      "sources": [
+        {
+          "element": "FMA7857",
+          "sha256": "60aaf884bbba890b825cc96036ab3af04ab8ba9a8d283752ba5c86105927b265",
+          "bytes": 709784,
+          "vertices": 7099,
+          "triangles": 14194
+        }
+      ],
+      "runtimeTriangles": 1248
+    },
+    {
+      "id": "right-second-rib",
+      "fma": "FMA7882",
+      "sourceName": "right second rib",
+      "sources": [
+        {
+          "element": "FMA7882",
+          "sha256": "be841be06ebe7f2554655e222a5c5237a40103335816eb6c2d51dae28bb9a7b0",
+          "bytes": 1184784,
+          "vertices": 11849,
+          "triangles": 23694
+        }
+      ],
+      "runtimeTriangles": 1930
+    },
+    {
+      "id": "right-third-rib",
+      "fma": "FMA7909",
+      "sourceName": "right third rib",
+      "sources": [
+        {
+          "element": "FMA7909",
+          "sha256": "942b53665d37f1541b49772e092d557ffee0407fa917205eb204c612c707710a",
+          "bytes": 1543084,
+          "vertices": 15432,
+          "triangles": 30860
+        }
+      ],
+      "runtimeTriangles": 2314
+    },
+    {
+      "id": "right-fourth-rib",
+      "fma": "FMA7957",
+      "sourceName": "right fourth rib",
+      "sources": [
+        {
+          "element": "FMA7957",
+          "sha256": "f09aed293efeaca491348e4b0d68aba243ad69b12da16c99ca0af8dfdbbe1537",
+          "bytes": 1924484,
+          "vertices": 19246,
+          "triangles": 38488
+        }
+      ],
+      "runtimeTriangles": 2714
+    },
+    {
+      "id": "right-fifth-rib",
+      "fma": "FMA8066",
+      "sourceName": "right fifth rib",
+      "sources": [
+        {
+          "element": "FMA8066",
+          "sha256": "692ce079c288c646d05f30bd656554c2ea5efb382390a2cfa5f1f3215a57fb4c",
+          "bytes": 2081784,
+          "vertices": 20819,
+          "triangles": 41634
+        }
+      ],
+      "runtimeTriangles": 2964
+    },
+    {
+      "id": "right-sixth-rib",
+      "fma": "FMA8175",
+      "sourceName": "right sixth rib",
+      "sources": [
+        {
+          "element": "FMA8175",
+          "sha256": "c7ceddf05e6f5b31a51f5cd5017659f10496fc004007052c45c0fddce2cbcf90",
+          "bytes": 2231784,
+          "vertices": 22319,
+          "triangles": 44634
+        }
+      ],
+      "runtimeTriangles": 3136
+    },
+    {
+      "id": "right-seventh-rib",
+      "fma": "FMA8229",
+      "sourceName": "right seventh rib",
+      "sources": [
+        {
+          "element": "FMA8229",
+          "sha256": "035891a2b0a602bc07206e6a560c43ace3270f9111fda00d3407a95991a69e3f",
+          "bytes": 2157384,
+          "vertices": 21575,
+          "triangles": 43146
+        }
+      ],
+      "runtimeTriangles": 3062
+    },
+    {
+      "id": "right-eighth-rib",
+      "fma": "FMA8283",
+      "sourceName": "right eighth rib",
+      "sources": [
+        {
+          "element": "FMA8283",
+          "sha256": "bb77ea1b25858457b67e2be43a09077a2de0e2a3c662c3bc2b1528f28b458b84",
+          "bytes": 1832384,
+          "vertices": 18325,
+          "triangles": 36646
+        }
+      ],
+      "runtimeTriangles": 2928
+    },
+    {
+      "id": "right-ninth-rib",
+      "fma": "FMA8364",
+      "sourceName": "right ninth rib",
+      "sources": [
+        {
+          "element": "FMA8364",
+          "sha256": "22f08d07eb9edcd51a3de7d3bb59df3cf848cc091808ec9e7080a937620a06fe",
+          "bytes": 1713984,
+          "vertices": 17141,
+          "triangles": 34278
+        }
+      ],
+      "runtimeTriangles": 2720
+    },
+    {
+      "id": "right-tenth-rib",
+      "fma": "FMA8445",
+      "sourceName": "right tenth rib",
+      "sources": [
+        {
+          "element": "FMA8445",
+          "sha256": "74b03c2cd1d227d262d848aa0564b2022f1944bcaf6d3b469cceb5310da07c70",
+          "bytes": 1550584,
+          "vertices": 15507,
+          "triangles": 31010
+        }
+      ],
+      "runtimeTriangles": 2580
+    },
+    {
+      "id": "right-eleventh-rib",
+      "fma": "FMA8531",
+      "sourceName": "right eleventh rib",
+      "sources": [
+        {
+          "element": "FMA8531",
+          "sha256": "e2bc61ccb59923b00048f093cb5d105c5a4a03f5d4cabce2be147df0192af269",
+          "bytes": 1121484,
+          "vertices": 11216,
+          "triangles": 22428
+        }
+      ],
+      "runtimeTriangles": 2142
+    },
+    {
+      "id": "right-twelfth-rib",
+      "fma": "FMA8533",
+      "sourceName": "right twelfth rib",
+      "sources": [
+        {
+          "element": "FMA8533",
+          "sha256": "eb47b3d7b6b8440a90fe27f333c8f30f72c6ae82694f4d0737ca6279b04e0b74",
+          "bytes": 663184,
+          "vertices": 6633,
+          "triangles": 13262
+        }
+      ],
+      "runtimeTriangles": 1464
+    },
+    {
+      "id": "left-first-rib",
+      "fma": "FMA7987",
+      "sourceName": "left first rib",
+      "sources": [
+        {
+          "element": "FMA7987",
+          "sha256": "47054d1d5654d7612a853d28529784a04719235c7162c20f3c11b14778735526",
+          "bytes": 773284,
+          "vertices": 7734,
+          "triangles": 15464
+        }
+      ],
+      "runtimeTriangles": 1248
+    },
+    {
+      "id": "left-second-rib",
+      "fma": "FMA8012",
+      "sourceName": "left second rib",
+      "sources": [
+        {
+          "element": "FMA8012",
+          "sha256": "f6aadf30d7b507bd545fdcbb4f43630fc331c652fe1c4024d75380c1dfae45e6",
+          "bytes": 1265284,
+          "vertices": 12654,
+          "triangles": 25304
+        }
+      ],
+      "runtimeTriangles": 1942
+    },
+    {
+      "id": "left-third-rib",
+      "fma": "FMA8039",
+      "sourceName": "left third rib",
+      "sources": [
+        {
+          "element": "FMA8039",
+          "sha256": "344b8098d9d10c0fb24bc11cd5f1cf41aba35070c4344d84b9a9b9b01026d394",
+          "bytes": 1560684,
+          "vertices": 15608,
+          "triangles": 31212
+        }
+      ],
+      "runtimeTriangles": 2314
+    },
+    {
+      "id": "left-fourth-rib",
+      "fma": "FMA8148",
+      "sourceName": "left fourth rib",
+      "sources": [
+        {
+          "element": "FMA8148",
+          "sha256": "477e7de3c896937eb7df14760a63c0003cdeb6de9ae156d02a46da960081456f",
+          "bytes": 1896184,
+          "vertices": 18963,
+          "triangles": 37922
+        }
+      ],
+      "runtimeTriangles": 2716
+    },
+    {
+      "id": "left-fifth-rib",
+      "fma": "FMA8093",
+      "sourceName": "left fifth rib",
+      "sources": [
+        {
+          "element": "FMA8093",
+          "sha256": "c795ccae604bc9ffa90b607c04135548e6c6febcbe2276fb19a29167d4f2591e",
+          "bytes": 2078484,
+          "vertices": 20786,
+          "triangles": 41568
+        }
+      ],
+      "runtimeTriangles": 2964
+    },
+    {
+      "id": "left-sixth-rib",
+      "fma": "FMA8202",
+      "sourceName": "left sixth rib",
+      "sources": [
+        {
+          "element": "FMA8202",
+          "sha256": "1230ade55f5abf93769e38411a2e6cb72a8e480a9335bfff21a0ef4c3ef78a1c",
+          "bytes": 2221784,
+          "vertices": 22219,
+          "triangles": 44434
+        }
+      ],
+      "runtimeTriangles": 3134
+    },
+    {
+      "id": "left-seventh-rib",
+      "fma": "FMA8256",
+      "sourceName": "left seventh rib",
+      "sources": [
+        {
+          "element": "FMA8256",
+          "sha256": "48a8cb5f072ee227097420c8af4707f1a2cae82127b3b11f846a6a80d8a66803",
+          "bytes": 2203184,
+          "vertices": 22033,
+          "triangles": 44062
+        }
+      ],
+      "runtimeTriangles": 3062
+    },
+    {
+      "id": "left-eighth-rib",
+      "fma": "FMA8310",
+      "sourceName": "left eighth rib",
+      "sources": [
+        {
+          "element": "FMA8310",
+          "sha256": "89a351122e11281fb5f2ac6a6b7d7d79ca3c6c04f5be19cfcb9264988b3c9c33",
+          "bytes": 1856784,
+          "vertices": 18569,
+          "triangles": 37134
+        }
+      ],
+      "runtimeTriangles": 2928
+    },
+    {
+      "id": "left-ninth-rib",
+      "fma": "FMA8391",
+      "sourceName": "left ninth rib",
+      "sources": [
+        {
+          "element": "FMA8391",
+          "sha256": "b912e0b9e6238b00620a657d299db5f08fcfb7cc359ac56f80d8c5c45a93a3a4",
+          "bytes": 1801084,
+          "vertices": 18012,
+          "triangles": 36020
+        }
+      ],
+      "runtimeTriangles": 2720
+    },
+    {
+      "id": "left-tenth-rib",
+      "fma": "FMA8472",
+      "sourceName": "left tenth rib",
+      "sources": [
+        {
+          "element": "FMA8472",
+          "sha256": "73ceca00c9334232a2ee2221eb03fbc75f7b37cfc45e3762dc867571e1ca67b9",
+          "bytes": 1587984,
+          "vertices": 15881,
+          "triangles": 31758
+        }
+      ],
+      "runtimeTriangles": 2578
+    },
+    {
+      "id": "left-eleventh-rib",
+      "fma": "FMA8532",
+      "sourceName": "left eleventh rib",
+      "sources": [
+        {
+          "element": "FMA8532",
+          "sha256": "1e744600b93e628619746faa6921a3b72b955c437dc4b35a1dbff0421776ac6b",
+          "bytes": 1141384,
+          "vertices": 11415,
+          "triangles": 22826
+        }
+      ],
+      "runtimeTriangles": 2140
+    },
+    {
+      "id": "left-twelfth-rib",
+      "fma": "FMA8534",
+      "sourceName": "left twelfth rib",
+      "sources": [
+        {
+          "element": "FMA8534",
+          "sha256": "47df6f4c18e72581fa78b08aa83326321d8179a3b363743a7e40697f645cd679",
+          "bytes": 686384,
+          "vertices": 6865,
+          "triangles": 13726
+        }
+      ],
+      "runtimeTriangles": 1464
+    },
+    {
+      "id": "right-first-costal-cartilage",
+      "fma": "FMA7875",
+      "sourceName": "right first costal cartilage",
+      "sources": [
+        {
+          "element": "FMA7875",
+          "sha256": "5a92e898b016f1d6cc485498ff0f0e207b31098feccabc85d5219f103c4cb206",
+          "bytes": 117184,
+          "vertices": 1199,
+          "triangles": 2342
+        }
+      ],
+      "runtimeTriangles": 1186
+    },
+    {
+      "id": "right-second-costal-cartilage",
+      "fma": "FMA7886",
+      "sourceName": "right second costal cartilage",
+      "sources": [
+        {
+          "element": "FMA7886",
+          "sha256": "a714eaf849a06c058e7decd6f835395ae5d311087cb421b54ae8b8ad9037e8af",
+          "bytes": 127084,
+          "vertices": 1272,
+          "triangles": 2540
+        }
+      ],
+      "runtimeTriangles": 520
+    },
+    {
+      "id": "right-third-costal-cartilage",
+      "fma": "FMA7913",
+      "sourceName": "right third costal cartilage",
+      "sources": [
+        {
+          "element": "FMA7913",
+          "sha256": "46ee473827b2d0c86e89e987abd6a3a06bf58d83b1cf5a15ac74a4e329407fd8",
+          "bytes": 134784,
+          "vertices": 1351,
+          "triangles": 2694
+        }
+      ],
+      "runtimeTriangles": 556
+    },
+    {
+      "id": "right-fourth-costal-cartilage",
+      "fma": "FMA7976",
+      "sourceName": "right fourth costal cartilage",
+      "sources": [
+        {
+          "element": "FMA7976",
+          "sha256": "8eb4e349353481cb9fc5e61cc64335d09fdd835b704725d21a7a0259f579b2c8",
+          "bytes": 174384,
+          "vertices": 1759,
+          "triangles": 3486
+        }
+      ],
+      "runtimeTriangles": 734
+    },
+    {
+      "id": "right-fifth-costal-cartilage",
+      "fma": "FMA8070",
+      "sourceName": "right fifth costal cartilage",
+      "sources": [
+        {
+          "element": "FMA8070",
+          "sha256": "4806b779a0c7ff894f258172c8d38ea27773846dfde5c3dbc4ec1970efc934aa",
+          "bytes": 241584,
+          "vertices": 2417,
+          "triangles": 4830
+        }
+      ],
+      "runtimeTriangles": 912
+    },
+    {
+      "id": "right-sixth-costal-cartilage",
+      "fma": "FMA8194",
+      "sourceName": "right sixth costal cartilage",
+      "sources": [
+        {
+          "element": "FMA8194",
+          "sha256": "0036ae34629bdc085cdca443267e6624fa645623b7baf0a34469920689778552",
+          "bytes": 303984,
+          "vertices": 3041,
+          "triangles": 6078
+        }
+      ],
+      "runtimeTriangles": 1172
+    },
+    {
+      "id": "right-seventh-costal-cartilage",
+      "fma": "FMA8248",
+      "sourceName": "right seventh costal cartilage",
+      "sources": [
+        {
+          "element": "FMA8248",
+          "sha256": "deed7fc150913c7f1a5944ede84f5c80314bf80ee320e086040694232e440b89",
+          "bytes": 524684,
+          "vertices": 5274,
+          "triangles": 10492
+        }
+      ],
+      "runtimeTriangles": 2774
+    },
+    {
+      "id": "right-lower-costal-cartilages",
+      "fma": "BP28",
+      "sourceName": "right costal cartilage",
+      "sources": [
+        {
+          "element": "BP28",
+          "sha256": "3830b7572af7fe795f3f80d5e13a8603f6bc2f5bb8d2070d1cbce0855f9fcb64",
+          "bytes": 957884,
+          "vertices": 9562,
+          "triangles": 19156
+        }
+      ],
+      "runtimeTriangles": 2044
+    },
+    {
+      "id": "left-first-costal-cartilage",
+      "fma": "FMA8005",
+      "sourceName": "left first costal cartilage",
+      "sources": [
+        {
+          "element": "FMA8005",
+          "sha256": "ec3ce37db56619908322f97ec11a3fac6af3783b1c1becf0584aba0b3aaa34d0",
+          "bytes": 110284,
+          "vertices": 1104,
+          "triangles": 2204
+        }
+      ],
+      "runtimeTriangles": 510
+    },
+    {
+      "id": "left-second-costal-cartilage",
+      "fma": "FMA8031",
+      "sourceName": "left second costal cartilage",
+      "sources": [
+        {
+          "element": "FMA8031",
+          "sha256": "a1789b441e573b99c2ec9bc926bbbb4ea3e1320024a4d192a495eb6e6d17380b",
+          "bytes": 117584,
+          "vertices": 1177,
+          "triangles": 2350
+        }
+      ],
+      "runtimeTriangles": 520
+    },
+    {
+      "id": "left-third-costal-cartilage",
+      "fma": "FMA8058",
+      "sourceName": "left third costal cartilage",
+      "sources": [
+        {
+          "element": "FMA8058",
+          "sha256": "94b352139f62506839687cef4dc7ffc9e8314094a4975cc0d9105f79eedc376a",
+          "bytes": 121484,
+          "vertices": 1216,
+          "triangles": 2428
+        }
+      ],
+      "runtimeTriangles": 544
+    },
+    {
+      "id": "left-fourth-costal-cartilage",
+      "fma": "FMA8167",
+      "sourceName": "left fourth costal cartilage",
+      "sources": [
+        {
+          "element": "FMA8167",
+          "sha256": "3ad3eed191f35c724b5beefaa835852b3e3f3e874871278bb5423cef17f2efcd",
+          "bytes": 161084,
+          "vertices": 1612,
+          "triangles": 3220
+        }
+      ],
+      "runtimeTriangles": 732
+    },
+    {
+      "id": "left-fifth-costal-cartilage",
+      "fma": "FMA8112",
+      "sourceName": "left fifth costal cartilage",
+      "sources": [
+        {
+          "element": "FMA8112",
+          "sha256": "ec2b2c0aa5181884e2661695f821e34e3a3774ae4cce7125b6d8eee8cc396945",
+          "bytes": 226884,
+          "vertices": 2270,
+          "triangles": 4536
+        }
+      ],
+      "runtimeTriangles": 910
+    },
+    {
+      "id": "left-sixth-costal-cartilage",
+      "fma": "FMA8221",
+      "sourceName": "left sixth costal cartilage",
+      "sources": [
+        {
+          "element": "FMA8221",
+          "sha256": "a378b49e15d1a728170cc4a14642bd40d3a451f601e60e41204ce004f0025708",
+          "bytes": 298384,
+          "vertices": 2985,
+          "triangles": 5966
+        }
+      ],
+      "runtimeTriangles": 1170
+    },
+    {
+      "id": "left-seventh-costal-cartilage",
+      "fma": "FMA8275",
+      "sourceName": "left seventh costal cartilage",
+      "sources": [
+        {
+          "element": "FMA8275",
+          "sha256": "22f94e1cff58983b435c2c838bf28b286172c226b36499160c3bbcedeadff098",
+          "bytes": 495184,
+          "vertices": 4953,
+          "triangles": 9902
+        }
+      ],
+      "runtimeTriangles": 1604
+    },
+    {
+      "id": "left-lower-costal-cartilages",
+      "fma": "BP24",
+      "sourceName": "left costal cartilage",
+      "sources": [
+        {
+          "element": "BP24",
+          "sha256": "20cee8c685e48c0be5dc8a19c7291d226772bd509e9f58c096a52fa08312c6f8",
+          "bytes": 947184,
+          "vertices": 9485,
+          "triangles": 18942
+        }
+      ],
+      "runtimeTriangles": 2048
+    },
+    {
+      "id": "right-clavicle",
+      "fma": "FMA13322",
+      "sourceName": "right clavicle",
+      "sources": [
+        {
+          "element": "FMA13322",
+          "sha256": "f340050375ea4397a85082fb7bd68ea553d52f4718656599804ecf8f4c7768be",
+          "bytes": 255684,
+          "vertices": 2558,
+          "triangles": 5112
+        }
+      ],
+      "runtimeTriangles": 2090
+    },
+    {
+      "id": "right-scapula",
+      "fma": "FMA13395",
+      "sourceName": "right scapula",
+      "sources": [
+        {
+          "element": "FMA13395",
+          "sha256": "c0a3afd469db1fec9527bb81ec1f0956876d3d64d3acbf3a083619d4e7ce297b",
+          "bytes": 5662884,
+          "vertices": 56630,
+          "triangles": 113256
+        }
+      ],
+      "runtimeTriangles": 2662
+    },
+    {
+      "id": "right-humerus",
+      "fma": "FMA23130",
+      "sourceName": "right humerus",
+      "sources": [
+        {
+          "element": "FMA23130",
+          "sha256": "6e26ad2b9794b136000abe2cc0b54cade989b943214e2149732cc2db2e337dce",
+          "bytes": 813484,
+          "vertices": 8136,
+          "triangles": 16268
+        }
+      ],
+      "runtimeTriangles": 3928
+    },
+    {
+      "id": "right-radius",
+      "fma": "FMA23464",
+      "sourceName": "right radius",
+      "sources": [
+        {
+          "element": "FMA23464",
+          "sha256": "23eed49ade9f558406782b47decee325d12ee9e1d5ef661a051a0516a142dfa3",
+          "bytes": 140284,
+          "vertices": 1404,
+          "triangles": 2804
+        }
+      ],
+      "runtimeTriangles": 2804
+    },
+    {
+      "id": "right-ulna",
+      "fma": "FMA23467",
+      "sourceName": "right ulna",
+      "sources": [
+        {
+          "element": "FMA23467",
+          "sha256": "c6074d69a2ccbcef6db2fb8bf758b44a5f6438b035da3399d6efb41b9d759a03",
+          "bytes": 179684,
+          "vertices": 1798,
+          "triangles": 3592
+        }
+      ],
+      "runtimeTriangles": 3180
+    },
+    {
+      "id": "right-scaphoid",
+      "fma": "FMA24435",
+      "sourceName": "right scaphoid",
+      "sources": [
+        {
+          "element": "FMA24435",
+          "sha256": "106d5be5a72229257a9ba41a543a4f42d18eae0513b45e0cd21e8e34d62518b6",
+          "bytes": 53784,
+          "vertices": 539,
+          "triangles": 1074
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "right-lunate",
+      "fma": "FMA24437",
+      "sourceName": "right lunate",
+      "sources": [
+        {
+          "element": "FMA24437",
+          "sha256": "4b35077cf6a5711e1dfdd39a07734d792f0c84ce19b3b8cc942e2ad4838ef8ea",
+          "bytes": 43284,
+          "vertices": 434,
+          "triangles": 864
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "right-triquetral",
+      "fma": "FMA24439",
+      "sourceName": "right triquetral",
+      "sources": [
+        {
+          "element": "FMA24439",
+          "sha256": "bb2139a7289e784de0ff2db5e1adcc9bd8f5c9c0d4418c0b885d379c97e8e319",
+          "bytes": 35284,
+          "vertices": 354,
+          "triangles": 704
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "right-pisiform",
+      "fma": "FMA24441",
+      "sourceName": "right pisiform",
+      "sources": [
+        {
+          "element": "FMA24441",
+          "sha256": "1357a32fd5fc1bb826a122dc67f5c795644516300ce53aae6e9b106da1997a19",
+          "bytes": 19884,
+          "vertices": 200,
+          "triangles": 396
+        }
+      ],
+      "runtimeTriangles": 396
+    },
+    {
+      "id": "right-trapezium",
+      "fma": "FMA24443",
+      "sourceName": "right trapezium",
+      "sources": [
+        {
+          "element": "FMA24443",
+          "sha256": "c28bb9f078fa7e1f164e549449c8025201a31965c47df0546476c84bb13cffaf",
+          "bytes": 51384,
+          "vertices": 515,
+          "triangles": 1026
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "right-trapezoid",
+      "fma": "FMA23725",
+      "sourceName": "right trapezoid",
+      "sources": [
+        {
+          "element": "FMA23725",
+          "sha256": "db19cf9ed7c2e97266255c03615458913b8c970d3b6e44eb015a756e4c839e5c",
+          "bytes": 30884,
+          "vertices": 310,
+          "triangles": 616
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "right-capitate",
+      "fma": "FMA24446",
+      "sourceName": "right capitate",
+      "sources": [
+        {
+          "element": "FMA24446",
+          "sha256": "4f717f2fba9b0cb432da64921d7aeaab2709d97129f39b6538c6ea147e68977d",
+          "bytes": 64284,
+          "vertices": 644,
+          "triangles": 1284
+        }
+      ],
+      "runtimeTriangles": 412
+    },
+    {
+      "id": "right-hamate",
+      "fma": "FMA24448",
+      "sourceName": "right hamate",
+      "sources": [
+        {
+          "element": "FMA24448",
+          "sha256": "28fc3501dc45884187c91738d368194820d0fa8fc5c421cc40525e0c71665e7d",
+          "bytes": 57584,
+          "vertices": 577,
+          "triangles": 1150
+        }
+      ],
+      "runtimeTriangles": 404
+    },
+    {
+      "id": "right-first-metacarpal-bone",
+      "fma": "FMA24464",
+      "sourceName": "right first metacarpal bone",
+      "sources": [
+        {
+          "element": "FMA24464",
+          "sha256": "5bca353b5b387b71fd6a9b3a588b08303a32cbf924a9c0bc7dc700024808624c",
+          "bytes": 121784,
+          "vertices": 1219,
+          "triangles": 2434
+        }
+      ],
+      "runtimeTriangles": 734
+    },
+    {
+      "id": "right-second-metacarpal-bone",
+      "fma": "FMA24466",
+      "sourceName": "right second metacarpal bone",
+      "sources": [
+        {
+          "element": "FMA24466",
+          "sha256": "3541c67a2864e4e72f56fe2a0c01aaa5d87346e55864e92a0360b32991892fe7",
+          "bytes": 160984,
+          "vertices": 1611,
+          "triangles": 3218
+        }
+      ],
+      "runtimeTriangles": 952
+    },
+    {
+      "id": "right-third-metacarpal-bone",
+      "fma": "FMA24468",
+      "sourceName": "right third metacarpal bone",
+      "sources": [
+        {
+          "element": "FMA24468",
+          "sha256": "f8d96b418c20308dc76868621875a3b029f9d6f072621efa37045dceb2730d5e",
+          "bytes": 150984,
+          "vertices": 1511,
+          "triangles": 3018
+        }
+      ],
+      "runtimeTriangles": 892
+    },
+    {
+      "id": "right-fourth-metacarpal-bone",
+      "fma": "FMA24470",
+      "sourceName": "right fourth metacarpal bone",
+      "sources": [
+        {
+          "element": "FMA24470",
+          "sha256": "5b9338a2d75680e92abbdc2c539d36ae8dd6f634ea3a026f2a6b33c071fb8e35",
+          "bytes": 115384,
+          "vertices": 1155,
+          "triangles": 2306
+        }
+      ],
+      "runtimeTriangles": 802
+    },
+    {
+      "id": "right-fifth-metacarpal-bone",
+      "fma": "FMA24472",
+      "sourceName": "right fifth metacarpal bone",
+      "sources": [
+        {
+          "element": "FMA24472",
+          "sha256": "4359ea925a821e599ed8f65bd02f3d6754144718f8724ef155177c38b9b79480",
+          "bytes": 108984,
+          "vertices": 1091,
+          "triangles": 2178
+        }
+      ],
+      "runtimeTriangles": 764
+    },
+    {
+      "id": "right-thumb-proximal-phalanx",
+      "fma": "FMA24450",
+      "sourceName": "proximal phalanx of right thumb",
+      "sources": [
+        {
+          "element": "FMA24450",
+          "sha256": "12066c799d3468b5d697a87b6fcf0b35e71c68df5e030053ecdd3d39c2259dec",
+          "bytes": 68484,
+          "vertices": 688,
+          "triangles": 1368
+        }
+      ],
+      "runtimeTriangles": 526
+    },
+    {
+      "id": "right-index-finger-proximal-phalanx",
+      "fma": "FMA24451",
+      "sourceName": "proximal phalanx of right index finger",
+      "sources": [
+        {
+          "element": "FMA24451",
+          "sha256": "29ac3a5b3459b99e81e4da835f4aa909b647f1fbb187423e53aa3e57315253ff",
+          "bytes": 83284,
+          "vertices": 834,
+          "triangles": 1664
+        }
+      ],
+      "runtimeTriangles": 594
+    },
+    {
+      "id": "right-middle-finger-proximal-phalanx",
+      "fma": "FMA24452",
+      "sourceName": "proximal phalanx of right middle finger",
+      "sources": [
+        {
+          "element": "FMA24452",
+          "sha256": "648823478862684fe11a5c647b02ae7892f634a3d56ff402c71b89e91aed33ec",
+          "bytes": 98484,
+          "vertices": 986,
+          "triangles": 1968
+        }
+      ],
+      "runtimeTriangles": 642
+    },
+    {
+      "id": "right-ring-finger-proximal-phalanx",
+      "fma": "FMA24453",
+      "sourceName": "proximal phalanx of right ring finger",
+      "sources": [
+        {
+          "element": "FMA24453",
+          "sha256": "3f36cfec72db8d90f89069910d0a1981c0e22b621fd4a7f9c6ad5d1517d2e15e",
+          "bytes": 81084,
+          "vertices": 812,
+          "triangles": 1620
+        }
+      ],
+      "runtimeTriangles": 592
+    },
+    {
+      "id": "right-little-finger-proximal-phalanx",
+      "fma": "FMA24454",
+      "sourceName": "proximal phalanx of right little finger",
+      "sources": [
+        {
+          "element": "FMA24454",
+          "sha256": "bf7d8f3cd4dcc1bef6487551a87d703e5a6b2b5ce856bc8c941edd5e90519bc9",
+          "bytes": 60484,
+          "vertices": 606,
+          "triangles": 1208
+        }
+      ],
+      "runtimeTriangles": 500
+    },
+    {
+      "id": "right-index-finger-middle-phalanx",
+      "fma": "FMA24455",
+      "sourceName": "middle phalanx of right index finger",
+      "sources": [
+        {
+          "element": "FMA24455",
+          "sha256": "b44a016e7a7798587ad694405a65275931c904e3cf2d55dd64061cbecbabe2ab",
+          "bytes": 57084,
+          "vertices": 572,
+          "triangles": 1140
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "right-middle-finger-middle-phalanx",
+      "fma": "FMA24456",
+      "sourceName": "middle phalanx of right middle finger",
+      "sources": [
+        {
+          "element": "FMA24456",
+          "sha256": "43d9601a373cf165c2e2bd604638186eda9ccded8f4418cc4aa382183cd5c2c2",
+          "bytes": 73884,
+          "vertices": 740,
+          "triangles": 1476
+        }
+      ],
+      "runtimeTriangles": 446
+    },
+    {
+      "id": "right-ring-finger-middle-phalanx",
+      "fma": "FMA24457",
+      "sourceName": "middle phalanx of right ring finger",
+      "sources": [
+        {
+          "element": "FMA24457",
+          "sha256": "929519bef218c8e53a80751a46fa69ef3ac301b8dd278e3156d7600431618e85",
+          "bytes": 67584,
+          "vertices": 677,
+          "triangles": 1350
+        }
+      ],
+      "runtimeTriangles": 436
+    },
+    {
+      "id": "right-little-finger-middle-phalanx",
+      "fma": "FMA24458",
+      "sourceName": "middle phalanx of right little finger",
+      "sources": [
+        {
+          "element": "FMA24458",
+          "sha256": "d67f25f614d977663d141628d01bdefcd55b0624dc90b3aee91dc96abac1942f",
+          "bytes": 45084,
+          "vertices": 452,
+          "triangles": 900
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "right-thumb-distal-phalanx",
+      "fma": "FMA24459",
+      "sourceName": "distal phalanx of right thumb",
+      "sources": [
+        {
+          "element": "FMA24459",
+          "sha256": "a9aa0c6acb7269cc5a81632a00b06ceb8a33cd2fe078634239da5a7f53ea1602",
+          "bytes": 52084,
+          "vertices": 520,
+          "triangles": 1040
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "right-index-finger-distal-phalanx",
+      "fma": "FMA24460",
+      "sourceName": "distal phalanx of right index finger",
+      "sources": [
+        {
+          "element": "FMA24460",
+          "sha256": "7f5f76eb2982eb79bbf51ed626f722abe0d8ceb6e678e433d6732a71187b61db",
+          "bytes": 32884,
+          "vertices": 330,
+          "triangles": 656
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "right-middle-finger-distal-phalanx",
+      "fma": "FMA24461",
+      "sourceName": "distal phalanx of right middle finger",
+      "sources": [
+        {
+          "element": "FMA24461",
+          "sha256": "5a2321e130f03d57b18e6cc725c9129b8e8398385f06403d8e6228a3f959756a",
+          "bytes": 32084,
+          "vertices": 322,
+          "triangles": 640
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "right-ring-finger-distal-phalanx",
+      "fma": "FMA24462",
+      "sourceName": "distal phalanx of right ring finger",
+      "sources": [
+        {
+          "element": "FMA24462",
+          "sha256": "9e14b18953b97f741d9ab5a0b05f786d6474cda29a13f06072d188b3ff978291",
+          "bytes": 22684,
+          "vertices": 228,
+          "triangles": 452
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "right-little-finger-distal-phalanx",
+      "fma": "FMA24463",
+      "sourceName": "distal phalanx of right little finger",
+      "sources": [
+        {
+          "element": "FMA24463",
+          "sha256": "520090dc80d537f973295acd49e070f3e094c4d5a48ef708e36a2b98a351d0d7",
+          "bytes": 23384,
+          "vertices": 237,
+          "triangles": 466
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "left-clavicle",
+      "fma": "FMA13323",
+      "sourceName": "left clavicle",
+      "sources": [
+        {
+          "element": "FMA13323",
+          "sha256": "ec68d362926061c62c2b7493fb6554941d78250f27ecdf744375659050bdc7ee",
+          "bytes": 257084,
+          "vertices": 2572,
+          "triangles": 5140
+        }
+      ],
+      "runtimeTriangles": 2090
+    },
+    {
+      "id": "left-scapula",
+      "fma": "FMA13396",
+      "sourceName": "left scapula",
+      "sources": [
+        {
+          "element": "FMA13396",
+          "sha256": "104b7749a10794987535c539d6c412b9b9afb3fd1819bdf5911ab1852f07a425",
+          "bytes": 6090884,
+          "vertices": 60910,
+          "triangles": 121816
+        }
+      ],
+      "runtimeTriangles": 2662
+    },
+    {
+      "id": "left-humerus",
+      "fma": "FMA23131",
+      "sourceName": "left humerus",
+      "sources": [
+        {
+          "element": "FMA23131",
+          "sha256": "a0650a72c481093ee8c3b1fe7cf8ad97b2d63875685e1acf608dec7a5e031748",
+          "bytes": 824684,
+          "vertices": 8248,
+          "triangles": 16492
+        }
+      ],
+      "runtimeTriangles": 3928
+    },
+    {
+      "id": "left-radius",
+      "fma": "FMA23465",
+      "sourceName": "left radius",
+      "sources": [
+        {
+          "element": "FMA23465",
+          "sha256": "1a09c41034b916d138696db3266bf66f159f3770f9446f45a9a198db4486ae07",
+          "bytes": 135784,
+          "vertices": 1359,
+          "triangles": 2714
+        }
+      ],
+      "runtimeTriangles": 2714
+    },
+    {
+      "id": "left-ulna",
+      "fma": "FMA23468",
+      "sourceName": "left ulna",
+      "sources": [
+        {
+          "element": "FMA23468",
+          "sha256": "1284c72ce602b533b97cfb24fa73a72342cc049ebf6a6f8e709b686cdb828ed6",
+          "bytes": 176984,
+          "vertices": 1771,
+          "triangles": 3538
+        }
+      ],
+      "runtimeTriangles": 3180
+    },
+    {
+      "id": "left-scaphoid",
+      "fma": "FMA24436",
+      "sourceName": "left scaphoid",
+      "sources": [
+        {
+          "element": "FMA24436",
+          "sha256": "4b90712feb46eabd324c6daf33941c5278ac4148955a4cfa3bedf635c16c6360",
+          "bytes": 53584,
+          "vertices": 537,
+          "triangles": 1070
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "left-lunate",
+      "fma": "FMA24438",
+      "sourceName": "left lunate",
+      "sources": [
+        {
+          "element": "FMA24438",
+          "sha256": "e8fa993ebe8f750a8539a973e322062aacc1dab363195df349469f0214b33620",
+          "bytes": 43384,
+          "vertices": 435,
+          "triangles": 866
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "left-triquetral",
+      "fma": "FMA24440",
+      "sourceName": "left triquetral",
+      "sources": [
+        {
+          "element": "FMA24440",
+          "sha256": "700d0d3efc9e72f4a42177dda7d30daa938df45dc3331d67ce1c5d172dc212d4",
+          "bytes": 34984,
+          "vertices": 351,
+          "triangles": 698
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "left-pisiform",
+      "fma": "FMA24442",
+      "sourceName": "left pisiform",
+      "sources": [
+        {
+          "element": "FMA24442",
+          "sha256": "4bed2908c30a0ef0a96268f704a93c404a6fcb053ee845f161a1f1d1b1b80ed9",
+          "bytes": 19884,
+          "vertices": 200,
+          "triangles": 396
+        }
+      ],
+      "runtimeTriangles": 396
+    },
+    {
+      "id": "left-trapezium",
+      "fma": "FMA24444",
+      "sourceName": "left trapezium",
+      "sources": [
+        {
+          "element": "FMA24444",
+          "sha256": "df95c324cc99d203af2e6e2f047507f22f431f08a7752da3c8284f13b6c5cf7f",
+          "bytes": 52984,
+          "vertices": 531,
+          "triangles": 1058
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "left-trapezoid",
+      "fma": "FMA24445",
+      "sourceName": "left trapezoid",
+      "sources": [
+        {
+          "element": "FMA24445",
+          "sha256": "61e40b4ffc000ef88c46d89dd96ed1a33b39541f3eaca9dafbd9759a0b596005",
+          "bytes": 30684,
+          "vertices": 308,
+          "triangles": 612
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "left-capitate",
+      "fma": "FMA24447",
+      "sourceName": "left capitate",
+      "sources": [
+        {
+          "element": "FMA24447",
+          "sha256": "12a19ece9ad1da0a26a652164db1f14a93b6832fd59f9a2ac6a4ccc3e04959c5",
+          "bytes": 63984,
+          "vertices": 641,
+          "triangles": 1278
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "left-hamate",
+      "fma": "FMA24449",
+      "sourceName": "left hamate",
+      "sources": [
+        {
+          "element": "FMA24449",
+          "sha256": "1cb3e8073124b501718ba75a3517223e213e9e4a2c9f362970eab488edb251e0",
+          "bytes": 56584,
+          "vertices": 567,
+          "triangles": 1130
+        }
+      ],
+      "runtimeTriangles": 406
+    },
+    {
+      "id": "left-first-metacarpal-bone",
+      "fma": "FMA24465",
+      "sourceName": "left first metacarpal bone",
+      "sources": [
+        {
+          "element": "FMA24465",
+          "sha256": "6fc4f3724073e247f86bf290c6a63aac7baff4e50d3cc28dac77b6bec5ca8444",
+          "bytes": 124084,
+          "vertices": 1242,
+          "triangles": 2480
+        }
+      ],
+      "runtimeTriangles": 734
+    },
+    {
+      "id": "left-second-metacarpal-bone",
+      "fma": "FMA24467",
+      "sourceName": "left second metacarpal bone",
+      "sources": [
+        {
+          "element": "FMA24467",
+          "sha256": "effb3dcd7e12b211bc21402eec8db023cfb9e05cbd0fe16f210a0c318428ec0d",
+          "bytes": 163284,
+          "vertices": 1634,
+          "triangles": 3264
+        }
+      ],
+      "runtimeTriangles": 952
+    },
+    {
+      "id": "left-third-metacarpal-bone",
+      "fma": "FMA24469",
+      "sourceName": "left third metacarpal bone",
+      "sources": [
+        {
+          "element": "FMA24469",
+          "sha256": "3bd755e9e19febcd8829da0c4b3540606a1ddcda6e1fe63fb148ddf41b342141",
+          "bytes": 152084,
+          "vertices": 1522,
+          "triangles": 3040
+        }
+      ],
+      "runtimeTriangles": 892
+    },
+    {
+      "id": "left-fourth-metacarpal-bone",
+      "fma": "FMA24471",
+      "sourceName": "left fourth metacarpal bone",
+      "sources": [
+        {
+          "element": "FMA24471",
+          "sha256": "26b62312ffb7f3949d7def62fc31728df6a2daff3fd94919b9511b12eaa80722",
+          "bytes": 113584,
+          "vertices": 1137,
+          "triangles": 2270
+        }
+      ],
+      "runtimeTriangles": 802
+    },
+    {
+      "id": "left-fifth-metacarpal-bone",
+      "fma": "FMA24473",
+      "sourceName": "left fifth metacarpal bone",
+      "sources": [
+        {
+          "element": "FMA24473",
+          "sha256": "fd9f01dfbfc98f33296c5b898d9efd018fd866a3543d861b22a9b888af848e07",
+          "bytes": 107384,
+          "vertices": 1075,
+          "triangles": 2146
+        }
+      ],
+      "runtimeTriangles": 764
+    },
+    {
+      "id": "left-thumb-proximal-phalanx",
+      "fma": "FMA65470",
+      "sourceName": "proximal phalanx of left thumb",
+      "sources": [
+        {
+          "element": "FMA65470",
+          "sha256": "3ca7d68ada2e272dfcac9b207083e4b1efeb2292f19ea4fffc92531ddc27f511",
+          "bytes": 65784,
+          "vertices": 659,
+          "triangles": 1314
+        }
+      ],
+      "runtimeTriangles": 526
+    },
+    {
+      "id": "left-index-finger-proximal-phalanx",
+      "fma": "FMA71915",
+      "sourceName": "proximal phalanx of left index finger",
+      "sources": [
+        {
+          "element": "FMA71915",
+          "sha256": "906b9e7614f4bb4a65099514c33c666ef5f94dba4137e8b64df0a86d780fddd6",
+          "bytes": 84284,
+          "vertices": 844,
+          "triangles": 1684
+        }
+      ],
+      "runtimeTriangles": 594
+    },
+    {
+      "id": "left-middle-finger-proximal-phalanx",
+      "fma": "FMA71908",
+      "sourceName": "proximal phalanx of left middle finger",
+      "sources": [
+        {
+          "element": "FMA71908",
+          "sha256": "d5028ed8251d30dc76d16f519da2054dffa3b303dda9eb33e9a7ce58cc1c01a7",
+          "bytes": 98784,
+          "vertices": 989,
+          "triangles": 1974
+        }
+      ],
+      "runtimeTriangles": 640
+    },
+    {
+      "id": "left-ring-finger-proximal-phalanx",
+      "fma": "FMA71916",
+      "sourceName": "proximal phalanx of left ring finger",
+      "sources": [
+        {
+          "element": "FMA71916",
+          "sha256": "490d733e1d3196cca3fd01141868a0cfa65e39e5f9cabecd3bd4ed8b27176596",
+          "bytes": 80884,
+          "vertices": 810,
+          "triangles": 1616
+        }
+      ],
+      "runtimeTriangles": 590
+    },
+    {
+      "id": "left-little-finger-proximal-phalanx",
+      "fma": "FMA66791",
+      "sourceName": "proximal phalanx of left little finger",
+      "sources": [
+        {
+          "element": "FMA66791",
+          "sha256": "74b692eed46bc7b2bc619dce7e7426a97be2b644bfefcc57e4ef6983237a68c7",
+          "bytes": 58984,
+          "vertices": 591,
+          "triangles": 1178
+        }
+      ],
+      "runtimeTriangles": 498
+    },
+    {
+      "id": "left-index-finger-middle-phalanx",
+      "fma": "FMA23938",
+      "sourceName": "middle phalanx of left index finger",
+      "sources": [
+        {
+          "element": "FMA23938",
+          "sha256": "45ff711aa61d6df7080eae929bd7c4e477ee1e801cbef07d38bbd20169ac37dc",
+          "bytes": 56984,
+          "vertices": 571,
+          "triangles": 1138
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "left-middle-finger-middle-phalanx",
+      "fma": "FMA23940",
+      "sourceName": "middle phalanx of left middle finger",
+      "sources": [
+        {
+          "element": "FMA23940",
+          "sha256": "bbe9fedfd2ce0210b7cec0dbdac53f3ec857a96d4340e9926dc7ad3c9a123e82",
+          "bytes": 74884,
+          "vertices": 750,
+          "triangles": 1496
+        }
+      ],
+      "runtimeTriangles": 444
+    },
+    {
+      "id": "left-ring-finger-middle-phalanx",
+      "fma": "FMA23942",
+      "sourceName": "middle phalanx of left ring finger",
+      "sources": [
+        {
+          "element": "FMA23942",
+          "sha256": "056727b803dc93d354943b43b3839bb45e20628e8d0fa3e1797a45a2b3d744e9",
+          "bytes": 67284,
+          "vertices": 674,
+          "triangles": 1344
+        }
+      ],
+      "runtimeTriangles": 434
+    },
+    {
+      "id": "left-little-finger-middle-phalanx",
+      "fma": "FMA23944",
+      "sourceName": "middle phalanx of left little finger",
+      "sources": [
+        {
+          "element": "FMA23944",
+          "sha256": "b25e93df5087f35d0713d4c8802c85361dec01c9b8b21e896dfb5d0c563894b8",
+          "bytes": 44284,
+          "vertices": 444,
+          "triangles": 884
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "left-thumb-distal-phalanx",
+      "fma": "FMA23951",
+      "sourceName": "distal phalanx of left thumb",
+      "sources": [
+        {
+          "element": "FMA23951",
+          "sha256": "52fd4afd10c00f9affa71345e046ca2b5153bacfa46f9f18a4be28fb25ad28e8",
+          "bytes": 49484,
+          "vertices": 496,
+          "triangles": 988
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "left-index-finger-distal-phalanx",
+      "fma": "FMA23953",
+      "sourceName": "distal phalanx of left index finger",
+      "sources": [
+        {
+          "element": "FMA23953",
+          "sha256": "d71a78b9ca7645866f2a2fca1907317dfc923ddfacb39cda867647f3c267e3ea",
+          "bytes": 32584,
+          "vertices": 327,
+          "triangles": 650
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "left-middle-finger-distal-phalanx",
+      "fma": "FMA23955",
+      "sourceName": "distal phalanx of left middle finger",
+      "sources": [
+        {
+          "element": "FMA23955",
+          "sha256": "b283012428c0bce98b50e158560baa94bf86b7b0d000e717ab5a726cdfef66ad",
+          "bytes": 31784,
+          "vertices": 319,
+          "triangles": 634
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "left-ring-finger-distal-phalanx",
+      "fma": "FMA23957",
+      "sourceName": "distal phalanx of left ring finger",
+      "sources": [
+        {
+          "element": "FMA23957",
+          "sha256": "8de40a0952bac8c96bc5f84af0c07e163f649453625c88a89eb326a20b61414d",
+          "bytes": 22484,
+          "vertices": 226,
+          "triangles": 448
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "left-little-finger-distal-phalanx",
+      "fma": "FMA23959",
+      "sourceName": "distal phalanx of left little finger",
+      "sources": [
+        {
+          "element": "FMA23959",
+          "sha256": "6c86d5a47e140b03c9119e733d6ee244b028ec9eb51fd18f2fc4ecf1693164e6",
+          "bytes": 22784,
+          "vertices": 229,
+          "triangles": 454
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "right-hip-bone",
+      "fma": "FMA16586",
+      "sourceName": "right hip bone",
+      "sources": [
+        {
+          "element": "FMA16586",
+          "sha256": "8e039b8dc53d82fda8d89045a97f0ee28022f1906b2c285204417859d9027693",
+          "bytes": 485884,
+          "vertices": 4858,
+          "triangles": 9716
+        }
+      ],
+      "runtimeTriangles": 3366
+    },
+    {
+      "id": "left-hip-bone",
+      "fma": "FMA16587",
+      "sourceName": "left hip bone",
+      "sources": [
+        {
+          "element": "FMA16587",
+          "sha256": "456552349a088b72f8e1b06660b93e005b7ffcebe713a0e38ea88f806535dbc7",
+          "bytes": 473584,
+          "vertices": 4735,
+          "triangles": 9470
+        }
+      ],
+      "runtimeTriangles": 3366
+    },
+    {
+      "id": "right-femur",
+      "fma": "FMA24474",
+      "sourceName": "right femur",
+      "sources": [
+        {
+          "element": "FMA24474",
+          "sha256": "a47d03f9a1064bab3db90876e05729924e8c4667c78c1e6373fb42d191cd5563",
+          "bytes": 649584,
+          "vertices": 6497,
+          "triangles": 12990
+        }
+      ],
+      "runtimeTriangles": 5524
+    },
+    {
+      "id": "right-patella",
+      "fma": "FMA24486",
+      "sourceName": "right patella",
+      "sources": [
+        {
+          "element": "FMA24486",
+          "sha256": "bf7bcd3d2b546a06e5d5be1cec4540a2a228c28501d50397b2f72e5a4e543aab",
+          "bytes": 66784,
+          "vertices": 669,
+          "triangles": 1334
+        }
+      ],
+      "runtimeTriangles": 744
+    },
+    {
+      "id": "right-tibia",
+      "fma": "FMA24477",
+      "sourceName": "right tibia",
+      "sources": [
+        {
+          "element": "FMA24477",
+          "sha256": "93c9c1b04dff757fc170e7e6bdd682f94816579c18c2fe0aa2170371c24635c2",
+          "bytes": 342584,
+          "vertices": 3427,
+          "triangles": 6850
+        }
+      ],
+      "runtimeTriangles": 4332
+    },
+    {
+      "id": "right-fibula",
+      "fma": "FMA24480",
+      "sourceName": "right fibula",
+      "sources": [
+        {
+          "element": "FMA24480",
+          "sha256": "972e74cb7f9d774c8dbf477542414acba7d02358fb090726a1ec2ffa57a44357",
+          "bytes": 231184,
+          "vertices": 2313,
+          "triangles": 4622
+        }
+      ],
+      "runtimeTriangles": 4248
+    },
+    {
+      "id": "right-talus",
+      "fma": "FMA24482",
+      "sourceName": "right talus",
+      "sources": [
+        {
+          "element": "FMA24482",
+          "sha256": "625cc6b5432ab75846d6c63db6f762ebe2e0dfa17eee25066945d88a4e62fa50",
+          "bytes": 298184,
+          "vertices": 2983,
+          "triangles": 5962
+        }
+      ],
+      "runtimeTriangles": 944
+    },
+    {
+      "id": "right-calcaneus",
+      "fma": "FMA24497",
+      "sourceName": "right calcaneus",
+      "sources": [
+        {
+          "element": "FMA24497",
+          "sha256": "77d434acd7647cccecd7aaa0b7cb1e8e2565063e4980d9dc72895b7574db5803",
+          "bytes": 272484,
+          "vertices": 2726,
+          "triangles": 5448
+        }
+      ],
+      "runtimeTriangles": 1198
+    },
+    {
+      "id": "right-navicular",
+      "fma": "FMA24500",
+      "sourceName": "navicular bone of right foot",
+      "sources": [
+        {
+          "element": "FMA24500",
+          "sha256": "3c1bc357a7327fb28dad1e35c3a1a5d5eceda2201128ef30af3cd16ca3187744",
+          "bytes": 151184,
+          "vertices": 1513,
+          "triangles": 3022
+        }
+      ],
+      "runtimeTriangles": 630
+    },
+    {
+      "id": "right-cuboid",
+      "fma": "FMA24528",
+      "sourceName": "right cuboid bone",
+      "sources": [
+        {
+          "element": "FMA24528",
+          "sha256": "cef9143d612fbcb1fecced3b21bbe5665271899637535463bbd103521c08e5a6",
+          "bytes": 181784,
+          "vertices": 1819,
+          "triangles": 3634
+        }
+      ],
+      "runtimeTriangles": 658
+    },
+    {
+      "id": "right-medial-cuneiform",
+      "fma": "FMA24521",
+      "sourceName": "right medial cuneiform bone",
+      "sources": [
+        {
+          "element": "FMA24521",
+          "sha256": "336488dd6a1eabcecb3e72ec5b021918e1dc8d8cee93f8aa1088a2ee7d8eaf97",
+          "bytes": 205784,
+          "vertices": 2059,
+          "triangles": 4114
+        }
+      ],
+      "runtimeTriangles": 612
+    },
+    {
+      "id": "right-intermediate-cuneiform",
+      "fma": "FMA24523",
+      "sourceName": "right intermediate cuneiform bone",
+      "sources": [
+        {
+          "element": "FMA24523",
+          "sha256": "9b2d4d3fd3523d089f6427d65e8e0373fb1fc53ebebcc4019703bbea364c4404",
+          "bytes": 97484,
+          "vertices": 976,
+          "triangles": 1948
+        }
+      ],
+      "runtimeTriangles": 448
+    },
+    {
+      "id": "right-lateral-cuneiform",
+      "fma": "FMA24525",
+      "sourceName": "right lateral cuneiform bone",
+      "sources": [
+        {
+          "element": "FMA24525",
+          "sha256": "7cd5fcf314e5f09db3739b2f8246cf93a0b23e3c088cf6c271db4a2f797cae5b",
+          "bytes": 135184,
+          "vertices": 1353,
+          "triangles": 2702
+        }
+      ],
+      "runtimeTriangles": 522
+    },
+    {
+      "id": "right-first-metatarsal-bone",
+      "fma": "FMA24507",
+      "sourceName": "right first metatarsal bone",
+      "sources": [
+        {
+          "element": "FMA24507",
+          "sha256": "51b6599b27339126c194f753364883bc37c63f43325b04e61733ce9203438ae2",
+          "bytes": 244384,
+          "vertices": 2445,
+          "triangles": 4886
+        }
+      ],
+      "runtimeTriangles": 938
+    },
+    {
+      "id": "right-second-metatarsal-bone",
+      "fma": "FMA24509",
+      "sourceName": "right second metatarsal bone",
+      "sources": [
+        {
+          "element": "FMA24509",
+          "sha256": "0f3a7fec8e4a22b416f6c9d2f5c3afdc03ebcfc5439ac3934fe99e63a8dbdfed",
+          "bytes": 162984,
+          "vertices": 1631,
+          "triangles": 3258
+        }
+      ],
+      "runtimeTriangles": 1024
+    },
+    {
+      "id": "right-third-metatarsal-bone",
+      "fma": "FMA24511",
+      "sourceName": "right third metatarsal bone",
+      "sources": [
+        {
+          "element": "FMA24511",
+          "sha256": "c2cafb7b5ed9fc111043d833ccf04d98ec05c2266388c7b4a6d62e4ded7b1dcf",
+          "bytes": 151584,
+          "vertices": 1517,
+          "triangles": 3030
+        }
+      ],
+      "runtimeTriangles": 980
+    },
+    {
+      "id": "right-fourth-metatarsal-bone",
+      "fma": "FMA24513",
+      "sourceName": "right fourth metatarsal bone",
+      "sources": [
+        {
+          "element": "FMA24513",
+          "sha256": "247fc29a7b2e30c4bc047cfee0d5bf0d37ffdc0c9f33dcb4decc9e177dacd2ae",
+          "bytes": 145984,
+          "vertices": 1461,
+          "triangles": 2918
+        }
+      ],
+      "runtimeTriangles": 970
+    },
+    {
+      "id": "right-fifth-metatarsal-bone",
+      "fma": "FMA24515",
+      "sourceName": "right fifth metatarsal bone",
+      "sources": [
+        {
+          "element": "FMA24515",
+          "sha256": "edf22a71963bb66a060acf7d965a94e5c7538784e34639322cfea8ef466d515e",
+          "bytes": 171684,
+          "vertices": 1718,
+          "triangles": 3432
+        }
+      ],
+      "runtimeTriangles": 1024
+    },
+    {
+      "id": "right-big-toe-proximal-phalanx",
+      "fma": "FMA43253",
+      "sourceName": "proximal phalanx of right big toe",
+      "sources": [
+        {
+          "element": "FMA43253",
+          "sha256": "41f037dcecbe342831931c61db090272d88765c531c75675d9efa08e49074520",
+          "bytes": 105384,
+          "vertices": 1055,
+          "triangles": 2106
+        }
+      ],
+      "runtimeTriangles": 546
+    },
+    {
+      "id": "right-second-toe-proximal-phalanx",
+      "fma": "FMA32634",
+      "sourceName": "proximal phalanx of right second toe",
+      "sources": [
+        {
+          "element": "FMA32634",
+          "sha256": "837aa1c3a88edeab564b748524e7e4b4097a5a3088e8ea8250ad572b538e941a",
+          "bytes": 68184,
+          "vertices": 683,
+          "triangles": 1362
+        }
+      ],
+      "runtimeTriangles": 428
+    },
+    {
+      "id": "right-third-toe-proximal-phalanx",
+      "fma": "FMA32636",
+      "sourceName": "proximal phalanx of right third toe",
+      "sources": [
+        {
+          "element": "FMA32636",
+          "sha256": "800eb86838258189babb00a19f1ca59fdcabae9368aceaa294ad0d5bdff14e2e",
+          "bytes": 61184,
+          "vertices": 613,
+          "triangles": 1222
+        }
+      ],
+      "runtimeTriangles": 424
+    },
+    {
+      "id": "right-fourth-toe-proximal-phalanx",
+      "fma": "FMA32638",
+      "sourceName": "proximal phalanx of right fourth toe",
+      "sources": [
+        {
+          "element": "FMA32638",
+          "sha256": "64c39e9073ddaed053b978d539eca2d91ae4827808b38918b67bef58e877d2a0",
+          "bytes": 54784,
+          "vertices": 549,
+          "triangles": 1094
+        }
+      ],
+      "runtimeTriangles": 404
+    },
+    {
+      "id": "right-little-toe-proximal-phalanx",
+      "fma": "FMA32640",
+      "sourceName": "proximal phalanx of right little toe",
+      "sources": [
+        {
+          "element": "FMA32640",
+          "sha256": "01533ba075bd1c07db584d2e409ff2b84fac4d39a4674d703b47c285df4e37bc",
+          "bytes": 57484,
+          "vertices": 576,
+          "triangles": 1148
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "right-second-toe-middle-phalanx",
+      "fma": "FMA32642",
+      "sourceName": "middle phalanx of right second toe",
+      "sources": [
+        {
+          "element": "FMA32642",
+          "sha256": "0d90e6b2cebc5bd549c003f231ba97c2f13a86ff4785008b3af0e4139debb2af",
+          "bytes": 32684,
+          "vertices": 328,
+          "triangles": 652
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "right-third-toe-middle-phalanx",
+      "fma": "FMA32644",
+      "sourceName": "middle phalanx of right third toe",
+      "sources": [
+        {
+          "element": "FMA32644",
+          "sha256": "eaaca0c069e9bf87a510a90f2b65d71f3b5e9eb352a517778a51d35843b54aab",
+          "bytes": 31784,
+          "vertices": 319,
+          "triangles": 634
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "right-fourth-toe-middle-phalanx",
+      "fma": "FMA32646",
+      "sourceName": "middle phalanx of right fourth toe",
+      "sources": [
+        {
+          "element": "FMA32646",
+          "sha256": "adeb430f41fd03025bc8afe1e63dbd07ec95a2f81918748f961d462290bd01e9",
+          "bytes": 26084,
+          "vertices": 262,
+          "triangles": 520
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "right-little-toe-middle-phalanx",
+      "fma": "FMA230986",
+      "sourceName": "middle phalanx of right little toe",
+      "sources": [
+        {
+          "element": "FMA230986",
+          "sha256": "b7602b14d0ead2a93c9fdf977e39dbbbe85283e71ecb05326119040b4c0cda1e",
+          "bytes": 14784,
+          "vertices": 149,
+          "triangles": 294
+        }
+      ],
+      "runtimeTriangles": 294
+    },
+    {
+      "id": "right-big-toe-distal-phalanx",
+      "fma": "FMA32650",
+      "sourceName": "distal phalanx of right big toe",
+      "sources": [
+        {
+          "element": "FMA32650",
+          "sha256": "caf9a776cb2355ca7697137967185b9572aee764597c6c0ec4f8c517fbca4144",
+          "bytes": 80384,
+          "vertices": 805,
+          "triangles": 1606
+        }
+      ],
+      "runtimeTriangles": 416
+    },
+    {
+      "id": "right-second-toe-distal-phalanx",
+      "fma": "FMA32652",
+      "sourceName": "distal phalanx of right second toe",
+      "sources": [
+        {
+          "element": "FMA32652",
+          "sha256": "47942ff087e7cb277b675426762d6462816e3c91ca956aa0026f91bb2dffb023",
+          "bytes": 23384,
+          "vertices": 235,
+          "triangles": 466
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "right-third-toe-distal-phalanx",
+      "fma": "FMA32654",
+      "sourceName": "distal phalanx of right third toe",
+      "sources": [
+        {
+          "element": "FMA32654",
+          "sha256": "884aeb353b3ddd9487e4c7f6710c3cf6b97d9b4ca05f535340737b9932a71970",
+          "bytes": 16784,
+          "vertices": 169,
+          "triangles": 334
+        }
+      ],
+      "runtimeTriangles": 334
+    },
+    {
+      "id": "right-fourth-toe-distal-phalanx",
+      "fma": "FMA32656",
+      "sourceName": "distal phalanx of right fourth toe",
+      "sources": [
+        {
+          "element": "FMA32656",
+          "sha256": "f573a3df27af5424fd81f439d1dc039c0d057607cceed1e62556b690e540eb2d",
+          "bytes": 18184,
+          "vertices": 183,
+          "triangles": 362
+        }
+      ],
+      "runtimeTriangles": 362
+    },
+    {
+      "id": "right-little-toe-distal-phalanx",
+      "fma": "FMA32658",
+      "sourceName": "distal phalanx of right little toe",
+      "sources": [
+        {
+          "element": "FMA32658",
+          "sha256": "6357c99acb389ae30089ca7702ec0f465c2704c763234efc64ec963bee79b77f",
+          "bytes": 13784,
+          "vertices": 141,
+          "triangles": 274
+        }
+      ],
+      "runtimeTriangles": 274
+    },
+    {
+      "id": "right-sesamoid-bones-of-the-foot",
+      "fma": "FMA45097",
+      "sourceName": "sesamoid bone of right foot",
+      "sources": [
+        {
+          "element": "FMA45097",
+          "sha256": "f7ebf3baf68c73ed801034b6d35228f9bbe98ec5af30df30186a3a267f066b31",
+          "bytes": 28884,
+          "vertices": 292,
+          "triangles": 576
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "left-femur",
+      "fma": "FMA24475",
+      "sourceName": "left femur",
+      "sources": [
+        {
+          "element": "FMA24475",
+          "sha256": "31a0bc2939b51bca3edec6704702cebe9f9119f8d7fdbdae67c3417777bbe47e",
+          "bytes": 660184,
+          "vertices": 6603,
+          "triangles": 13202
+        }
+      ],
+      "runtimeTriangles": 5524
+    },
+    {
+      "id": "left-patella",
+      "fma": "FMA24487",
+      "sourceName": "left patella",
+      "sources": [
+        {
+          "element": "FMA24487",
+          "sha256": "cf198828035679bf6cc9b4049c79e16b63e0c60ff807f4edb04c218b86551d89",
+          "bytes": 66984,
+          "vertices": 671,
+          "triangles": 1338
+        }
+      ],
+      "runtimeTriangles": 742
+    },
+    {
+      "id": "left-tibia",
+      "fma": "FMA24478",
+      "sourceName": "left tibia",
+      "sources": [
+        {
+          "element": "FMA24478",
+          "sha256": "fa05a615a99e861a3967debaf6357bfc7a24213a26dd1e1970ffcbb1d68b86f7",
+          "bytes": 341184,
+          "vertices": 3413,
+          "triangles": 6822
+        }
+      ],
+      "runtimeTriangles": 4330
+    },
+    {
+      "id": "left-fibula",
+      "fma": "FMA24481",
+      "sourceName": "left fibula",
+      "sources": [
+        {
+          "element": "FMA24481",
+          "sha256": "d7555b41d63678b6f5d45c4d4487cce3715411c16edab75532f51f48c8a6b39d",
+          "bytes": 227284,
+          "vertices": 2274,
+          "triangles": 4544
+        }
+      ],
+      "runtimeTriangles": 4248
+    },
+    {
+      "id": "left-talus",
+      "fma": "FMA24483",
+      "sourceName": "left talus",
+      "sources": [
+        {
+          "element": "FMA24483",
+          "sha256": "d6eb1d7cbed570f0cb804adbc39db35f78f86cfb53728a2ecff2495268f3f421",
+          "bytes": 296284,
+          "vertices": 2964,
+          "triangles": 5924
+        }
+      ],
+      "runtimeTriangles": 942
+    },
+    {
+      "id": "left-calcaneus",
+      "fma": "FMA24498",
+      "sourceName": "left calcaneus",
+      "sources": [
+        {
+          "element": "FMA24498",
+          "sha256": "f69e8c2030d72e872df538829dd304cde20dc85ed180100e755ba18fb04f00bc",
+          "bytes": 282684,
+          "vertices": 2828,
+          "triangles": 5652
+        }
+      ],
+      "runtimeTriangles": 1196
+    },
+    {
+      "id": "left-navicular",
+      "fma": "FMA24501",
+      "sourceName": "navicular bone of left foot",
+      "sources": [
+        {
+          "element": "FMA24501",
+          "sha256": "442afd4ff41c2e42780deef0904120c912034f10a44a91d3d0f8c0058eceef20",
+          "bytes": 154884,
+          "vertices": 1550,
+          "triangles": 3096
+        }
+      ],
+      "runtimeTriangles": 628
+    },
+    {
+      "id": "left-cuboid",
+      "fma": "FMA24529",
+      "sourceName": "left cuboid bone",
+      "sources": [
+        {
+          "element": "FMA24529",
+          "sha256": "6601d4e85466636c13be7fa291659e675b84a5158383a35fb65a48ff5f4fae6f",
+          "bytes": 190284,
+          "vertices": 1904,
+          "triangles": 3804
+        }
+      ],
+      "runtimeTriangles": 656
+    },
+    {
+      "id": "left-medial-cuneiform",
+      "fma": "FMA24522",
+      "sourceName": "left medial cuneiform bone",
+      "sources": [
+        {
+          "element": "FMA24522",
+          "sha256": "3d13c37191ccd80f3f3cf7599297f97e208fcfe4a2b0dac54bd58779adaf0627",
+          "bytes": 210584,
+          "vertices": 2107,
+          "triangles": 4210
+        }
+      ],
+      "runtimeTriangles": 612
+    },
+    {
+      "id": "left-intermediate-cuneiform",
+      "fma": "FMA24524",
+      "sourceName": "left intermediate cuneiform bone",
+      "sources": [
+        {
+          "element": "FMA24524",
+          "sha256": "a4a1ccd068251de97708368d860b62dfaff4dba59ff3adf46f27b640f4543704",
+          "bytes": 105384,
+          "vertices": 1055,
+          "triangles": 2106
+        }
+      ],
+      "runtimeTriangles": 448
+    },
+    {
+      "id": "left-lateral-cuneiform",
+      "fma": "FMA24526",
+      "sourceName": "left lateral cuneiform bone",
+      "sources": [
+        {
+          "element": "FMA24526",
+          "sha256": "625c4ec563e2a40206f4860775a8e62d0e2945a57d5aef1e670bc4c7a544daa7",
+          "bytes": 148484,
+          "vertices": 1486,
+          "triangles": 2968
+        }
+      ],
+      "runtimeTriangles": 522
+    },
+    {
+      "id": "left-first-metatarsal-bone",
+      "fma": "FMA24508",
+      "sourceName": "left first metatarsal bone",
+      "sources": [
+        {
+          "element": "FMA24508",
+          "sha256": "2ddda1bab95e221d554d72e0dfaf48b86d3a1c3513583131ef84b9b82717a4de",
+          "bytes": 243084,
+          "vertices": 2432,
+          "triangles": 4860
+        }
+      ],
+      "runtimeTriangles": 938
+    },
+    {
+      "id": "left-second-metatarsal-bone",
+      "fma": "FMA24510",
+      "sourceName": "left second metatarsal bone",
+      "sources": [
+        {
+          "element": "FMA24510",
+          "sha256": "c3b9e6c2fc8091e47d122aa5f1831fbc8bf8016e447d73a11c19a7a233b6d18d",
+          "bytes": 169484,
+          "vertices": 1696,
+          "triangles": 3388
+        }
+      ],
+      "runtimeTriangles": 1024
+    },
+    {
+      "id": "left-third-metatarsal-bone",
+      "fma": "FMA24512",
+      "sourceName": "left third metatarsal bone",
+      "sources": [
+        {
+          "element": "FMA24512",
+          "sha256": "9239942bf7878cd8132c0bc6d88dc0dabeb4d963ffffdaa60010ef9f57e4089d",
+          "bytes": 161484,
+          "vertices": 1616,
+          "triangles": 3228
+        }
+      ],
+      "runtimeTriangles": 980
+    },
+    {
+      "id": "left-fourth-metatarsal-bone",
+      "fma": "FMA24514",
+      "sourceName": "left fourth metatarsal bone",
+      "sources": [
+        {
+          "element": "FMA24514",
+          "sha256": "a8241bd9b964423ae6954ba93c942ef73610c9896c5b7484e58bd0a2503b5d8a",
+          "bytes": 155984,
+          "vertices": 1561,
+          "triangles": 3118
+        }
+      ],
+      "runtimeTriangles": 970
+    },
+    {
+      "id": "left-fifth-metatarsal-bone",
+      "fma": "FMA24516",
+      "sourceName": "left fifth metatarsal bone",
+      "sources": [
+        {
+          "element": "FMA24516",
+          "sha256": "fc045d11ba300c69c0af23d03a8fef87be3375c3d9ecc28ed1a9cc8d26e916bf",
+          "bytes": 184484,
+          "vertices": 1846,
+          "triangles": 3688
+        }
+      ],
+      "runtimeTriangles": 1024
+    },
+    {
+      "id": "left-big-toe-proximal-phalanx",
+      "fma": "FMA43254",
+      "sourceName": "proximal phalanx of left big toe",
+      "sources": [
+        {
+          "element": "FMA43254",
+          "sha256": "d87a1b3005c029b270260a3380e817b6204b545dec9373649a713c1b04897c24",
+          "bytes": 109784,
+          "vertices": 1099,
+          "triangles": 2194
+        }
+      ],
+      "runtimeTriangles": 544
+    },
+    {
+      "id": "left-second-toe-proximal-phalanx",
+      "fma": "FMA32635",
+      "sourceName": "proximal phalanx of left second toe",
+      "sources": [
+        {
+          "element": "FMA32635",
+          "sha256": "4da8c99e1dc8f405b5ec776a33bf30d70c379f45c8388e6db1ad66d936e0905e",
+          "bytes": 70884,
+          "vertices": 710,
+          "triangles": 1416
+        }
+      ],
+      "runtimeTriangles": 428
+    },
+    {
+      "id": "left-third-toe-proximal-phalanx",
+      "fma": "FMA32637",
+      "sourceName": "proximal phalanx of left third toe",
+      "sources": [
+        {
+          "element": "FMA32637",
+          "sha256": "277d6f2d4124832bf23414f98bccf378cd47396dc2d8a7c8d1108cef2e2ffd96",
+          "bytes": 62984,
+          "vertices": 631,
+          "triangles": 1258
+        }
+      ],
+      "runtimeTriangles": 422
+    },
+    {
+      "id": "left-fourth-toe-proximal-phalanx",
+      "fma": "FMA32639",
+      "sourceName": "proximal phalanx of left fourth toe",
+      "sources": [
+        {
+          "element": "FMA32639",
+          "sha256": "4524e26cdf94fcce9860ba4fa6b2c5f1146d896a567da00b4904870805673708",
+          "bytes": 58384,
+          "vertices": 585,
+          "triangles": 1166
+        }
+      ],
+      "runtimeTriangles": 402
+    },
+    {
+      "id": "left-little-toe-proximal-phalanx",
+      "fma": "FMA32641",
+      "sourceName": "proximal phalanx of left little toe",
+      "sources": [
+        {
+          "element": "FMA32641",
+          "sha256": "1c2a7e94492fcb669ed3cb625e7c985a8f5fafa55ba4752056c6d7815115c57e",
+          "bytes": 60384,
+          "vertices": 605,
+          "triangles": 1206
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "left-second-toe-middle-phalanx",
+      "fma": "FMA32643",
+      "sourceName": "middle phalanx of left second toe",
+      "sources": [
+        {
+          "element": "FMA32643",
+          "sha256": "04104428a3dfd3ac67bf2123ede0ca1d824727cc55bfe743fa1fb6f8af20e81b",
+          "bytes": 34384,
+          "vertices": 345,
+          "triangles": 686
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "left-third-toe-middle-phalanx",
+      "fma": "FMA32645",
+      "sourceName": "middle phalanx of left third toe",
+      "sources": [
+        {
+          "element": "FMA32645",
+          "sha256": "f4aa40882a462f3a745246429a7505de62768055442110afdd22adf1aae388ce",
+          "bytes": 31984,
+          "vertices": 321,
+          "triangles": 638
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "left-fourth-toe-middle-phalanx",
+      "fma": "FMA32647",
+      "sourceName": "middle phalanx of left fourth toe",
+      "sources": [
+        {
+          "element": "FMA32647",
+          "sha256": "9306b09f5b76600b751ae07bf6c187343bb275264e79a746f012624e49ec2f41",
+          "bytes": 27384,
+          "vertices": 275,
+          "triangles": 546
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "left-little-toe-middle-phalanx",
+      "fma": "FMA230988",
+      "sourceName": "middle phalanx of left little toe",
+      "sources": [
+        {
+          "element": "FMA230988",
+          "sha256": "0d991dce7d639f18c2c0b18db7f11db92c90fbe9eb61f7ddc4aaf0b0591e0892",
+          "bytes": 15184,
+          "vertices": 153,
+          "triangles": 302
+        }
+      ],
+      "runtimeTriangles": 302
+    },
+    {
+      "id": "left-big-toe-distal-phalanx",
+      "fma": "FMA32651",
+      "sourceName": "distal phalanx of left big toe",
+      "sources": [
+        {
+          "element": "FMA32651",
+          "sha256": "e458177c7ea9def14dc65216030204067edf0c4b2f5b1fa63413b444992df019",
+          "bytes": 79784,
+          "vertices": 799,
+          "triangles": 1594
+        }
+      ],
+      "runtimeTriangles": 416
+    },
+    {
+      "id": "left-second-toe-distal-phalanx",
+      "fma": "FMA32653",
+      "sourceName": "distal phalanx of left second toe",
+      "sources": [
+        {
+          "element": "FMA32653",
+          "sha256": "0c00998531f7ade85eb9de448afcaf05fea491dd2e3067ebdae7622e2878ec1d",
+          "bytes": 24184,
+          "vertices": 243,
+          "triangles": 482
+        }
+      ],
+      "runtimeTriangles": 400
+    },
+    {
+      "id": "left-third-toe-distal-phalanx",
+      "fma": "FMA32655",
+      "sourceName": "distal phalanx of left third toe",
+      "sources": [
+        {
+          "element": "FMA32655",
+          "sha256": "0478a76fc42ab91c72e734400831e816fa615994453a9b6c04ed77065c6bff50",
+          "bytes": 17784,
+          "vertices": 179,
+          "triangles": 354
+        }
+      ],
+      "runtimeTriangles": 354
+    },
+    {
+      "id": "left-fourth-toe-distal-phalanx",
+      "fma": "FMA32657",
+      "sourceName": "distal phalanx of left fourth toe",
+      "sources": [
+        {
+          "element": "FMA32657",
+          "sha256": "c02024cd29e3275ba007d4aa9a33d64b2f7bdfbffefd5945630a881c5cb9af61",
+          "bytes": 18284,
+          "vertices": 184,
+          "triangles": 364
+        }
+      ],
+      "runtimeTriangles": 364
+    },
+    {
+      "id": "left-little-toe-distal-phalanx",
+      "fma": "FMA32659",
+      "sourceName": "distal phalanx of left little toe",
+      "sources": [
+        {
+          "element": "FMA32659",
+          "sha256": "d5b5043cd075c5dea5cc232ee569251f086748546f9167ff4e777e40fde289a3",
+          "bytes": 14284,
+          "vertices": 144,
+          "triangles": 284
+        }
+      ],
+      "runtimeTriangles": 284
+    },
+    {
+      "id": "left-sesamoid-bones-of-the-foot",
+      "fma": "FMA45098",
+      "sourceName": "sesamoid bone of left foot",
+      "sources": [
+        {
+          "element": "FMA45098",
+          "sha256": "ad0c9167332fcce6cab2ac30993640b3d3b2287d5809b84f8179739f2c04a769",
+          "bytes": 27884,
+          "vertices": 282,
+          "triangles": 556
+        }
+      ],
+      "runtimeTriangles": 400
+    }
+  ]
+}

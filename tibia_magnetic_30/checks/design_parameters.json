@@ -1,0 +1,42 @@
+{
+  "length_mm": 400.0,
+  "cuts_mm": [
+    85.0,
+    249.5
+  ],
+  "middle_length_mm": 164.5,
+  "physical_parts": 4,
+  "magnet_pairs": 8,
+  "longitudinal_magnet_pairs": 4,
+  "transverse_magnet_pairs": 4,
+  "magnets_total": 16,
+  "pocket_diameter_mm": 6.2,
+  "pocket_depth_mm": 3.2,
+  "middle_internal_scale": 0.74,
+  "middle_end_wall_mm": 3.2,
+  "longitudinal_levels_mm": [
+    120.0,
+    215.0
+  ],
+  "longitudinal_boss_x_mm": [
+    [
+      -7.739862716446654,
+      4.593265974562728
+    ],
+    [
+      -8.984546970083386,
+      4.395575606797662
+    ]
+  ],
+  "transverse_y_mm": [
+    -5.0,
+    7.0
+  ],
+  "hollow_probe_z_mm": [
+    110.0,
+    167.0,
+    232.0
+  ],
+  "geometry_method": "Manifold solid Boolean; identical print and preview meshes",
+  "source": "BodyParts3D right tibia via organui/skeleton-3d; CC BY-SA 2.1 Japan"
+}
