@@ -14,6 +14,7 @@
   --focus:oklch(0.68 0.15 65); --radius:14px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
+[hidden]{display:none!important}
 html{scroll-behavior:smooth}
 body{font:16px/1.6 "Trebuchet MS",Arial,sans-serif;color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased}
 button,a{font:inherit} button{cursor:pointer} a{color:inherit}
@@ -63,11 +64,12 @@ h3{font-size:14px;text-transform:uppercase;letter-spacing:.07em;margin-bottom:8p
 <div class="shell">
 <header>
   <div><div class="eyebrow">Анатомические модели · 1:1</div><h1 id="model-title">Большеберцовая кость на магнитах</h1></div>
-  <div class="header-meta"><strong id="model-length">400 мм</strong>правая кость, 3 секции</div>
+  <div class="header-meta"><strong id="model-length">400 мм</strong><span id="model-kind">правая кость, 3 секции</span></div>
 </header>
 <nav class="model-switch" aria-label="Выбор кости">
   <button class="model-choice active" type="button" data-model="tibia" aria-pressed="true">Большеберцовая · 400 мм</button>
   <button class="model-choice" type="button" data-model="femur" aria-pressed="false">Бедренная · 450 мм</button>
+  <button class="model-choice" type="button" data-model="skull" aria-pressed="false">Череп · 220 мм</button>
 </nav>
 <nav class="model-switch version-switch" aria-label="Выбор версии средней секции">
   <button class="model-choice active" type="button" data-version="20" aria-pressed="true">Середина −20 %</button>
@@ -90,7 +92,7 @@ h3{font-size:14px;text-transform:uppercase;letter-spacing:.07em;margin-bottom:8p
     </div>
   </section>
   <aside class="sidebar">
-    <dl class="specs"><div class="spec"><dt>Печатные детали</dt><dd>4</dd></div><div class="spec"><dt>Магниты Ø6 × 3 мм</dt><dd id="spec-magnets">16</dd></div><div class="spec"><dt>Средняя секция</dt><dd id="spec-middle">188 мм</dd></div><div class="spec"><dt>Укорочение середины</dt><dd id="spec-version">20 %</dd></div><div class="spec"><dt>Гнёзда</dt><dd>6,2 × 3,2</dd></div><div class="spec"><dt>Треугольники</dt><dd id="spec-triangles">12 640</dd></div></dl>
+    <dl class="specs"><div class="spec"><dt>Печатные детали</dt><dd>4</dd></div><div class="spec"><dt>Магниты Ø6 × 3 мм</dt><dd id="spec-magnets">16</dd></div><div class="spec"><dt>Средняя секция</dt><dd id="spec-middle">188 мм</dd></div><div class="spec"><dt id="spec-version-label">Укорочение середины</dt><dd id="spec-version">20 %</dd></div><div class="spec"><dt>Гнёзда</dt><dd>6,2 × 3,2</dd></div><div class="spec"><dt>Треугольники</dt><dd id="spec-triangles">12 640</dd></div></dl>
     <section><h2>Порядок сборки</h2><ol class="steps"><li>Соедините половины A и B средней полой секции.</li><li>Установите нижнюю секцию снизу вдоль оси кости.</li><li>Установите верхнюю секцию сверху до совмещения контуров.</li></ol></section>
     <section><h3>Перед печатью</h3><p class="note">3MF содержит собранную компоновку. В слайсере разделите модель на объекты, поверните детали для печати и разместите на столах. Гнёзда рассчитаны на вклейку магнитов; соблюдайте притягивающую полярность каждой пары.</p></section>
     <p class="note"><strong>Нужен физический тест:</strong> фактическая посадка зависит от материала и калибровки. Цифровые проверки не заменяют пробную печать гнёзда.</p>

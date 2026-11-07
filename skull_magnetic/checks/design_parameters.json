@@ -1,0 +1,18 @@
+{
+  "height_mm": 220.0,
+  "cuts_mm": [95.0, 145.0],
+  "middle_length_mm": 50.0,
+  "physical_parts": 4,
+  "magnet_pairs": 8,
+  "longitudinal_magnet_pairs": 4,
+  "transverse_magnet_pairs": 4,
+  "magnets_total": 16,
+  "pocket_diameter_mm": 6.2,
+  "pocket_depth_mm": 3.2,
+  "split_y_mm": 0,
+  "transverse_low_xy_mm": [[0.0, -75.0], [0.0, 85.0]],
+  "transverse_high_xy_mm": [[0.0, -80.0], [0.0, 95.0]],
+  "longitudinal_xz_mm": [[-63.0, 110.0], [63.0, 110.0], [-66.0, 132.0], [66.0, 132.0]],
+  "geometry_method": "1 mm voxel union, decimation, Manifold solid Boolean; natural skull cavities retained",
+  "source": "BodyParts3D skull and mandible via organui/skeleton-3d; CC BY-SA 2.1 Japan"
+}

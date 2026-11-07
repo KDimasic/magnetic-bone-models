@@ -37,10 +37,18 @@ const models = {
       construction: 'Вариант с серединой короче на 30 %. Средняя секция длиной 185,5 мм полая и разделена продольно на две половины. Восемь пар магнитов: четыре пары между половинами и четыре пары на поперечных стыках. Вокруг гнёзд расположены внутренние усиления.',
       camera: [.67,.45,1.07], target: .225, mobileTarget: .28, explode: .065
     }
+  },
+  skull: {
+    20: {
+      title: 'Череп на магнитах', short: 'черепа', length: '220 мм', middle: '50 мм', reduction: '1:1', kind: 'череп с нижней челюстью, 3 секции',
+      glb: './assets/skull_magnetic.glb', threeMf: './assets/skull_magnetic.3mf', magnets: '16', triangles: '75 510',
+      construction: 'Череп высотой 220 мм с нижней челюстью разделён на три секции. Средняя секция сохраняет естественные полости и разделена на переднюю и заднюю половины. Восемь пар магнитов: четыре пары между половинами и четыре пары на поперечных стыках. Вокруг всех гнёзд добавлены внутренние усиления.',
+      camera: [.36,.30,.50], target: .11, mobileTarget: .13, explode: .05
+    }
   }
 };
 function parseHash() {
-  const match = location.hash.match(/^#(tibia|femur)(?:-(20|30))?$/);
+  const match = location.hash.match(/^#(tibia|femur|skull)(?:-(20|30))?$/);
   return { model: match?.[1] || 'tibia', version: match?.[2] || '20' };
 }
 let { model: currentModel, version: currentVersion } = parseHash();
@@ -134,6 +142,9 @@ function setState(state) {
 function updateModelUI(cfg) {
   document.getElementById('model-title').textContent = cfg.title;
   document.getElementById('model-length').textContent = cfg.length;
+  document.getElementById('model-kind').textContent = cfg.kind || 'правая кость, 3 секции';
+  document.getElementById('spec-version-label').textContent = currentModel === 'skull' ? 'Исполнение' : 'Укорочение середины';
+  document.querySelector('.version-switch').hidden = currentModel === 'skull';
   document.getElementById('spec-magnets').textContent = cfg.magnets;
   document.getElementById('spec-middle').textContent = cfg.middle;
   document.getElementById('spec-version').textContent = cfg.reduction;
@@ -223,8 +234,8 @@ document.querySelectorAll('[data-step]').forEach(btn => btn.addEventListener('cl
 document.getElementById('reset-view').addEventListener('click', resetCamera);
 document.querySelectorAll('[data-model]').forEach(btn => btn.addEventListener('click', () => {
   const next = btn.dataset.model;
-  history.replaceState(null, '', `#${next}-${currentVersion}`);
-  if (next !== currentModel || document.documentElement.dataset.modelReady !== 'true') loadModel(next, currentVersion);
+  history.replaceState(null, '', next === 'skull' ? '#skull' : `#${next}-${currentVersion}`);
+  if (next !== currentModel || document.documentElement.dataset.modelReady !== 'true') loadModel(next, 20);
 }));
 document.querySelectorAll('button[data-version]').forEach(btn => btn.addEventListener('click', () => {
   const next = btn.dataset.version;
